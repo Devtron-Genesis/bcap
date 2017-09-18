@@ -143,3 +143,15 @@ $(document).on("scroll", function() {
     $(".logo").removeClass("logo-shrink");
   }
 });
+
+//  var y = $(window).height();
+//     console.log($('.home').height());
+//     $('.banner').css('height', y - 1);
+//     $('a.scroll_prompt').css('top', y - 0);
+//     console.log(y);
+
+// $("a.scroll_prompt").click(function() {
+//       $('html,body').animate({
+//         scrollTop: $("a.scroll_prompt").offset().top
+//       }, 'slow');
+//     });
