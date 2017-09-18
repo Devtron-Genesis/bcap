@@ -57,6 +57,31 @@
 }
 .logo-shrink {
   width: 36px;
-  margin: -3px 0px 0px 0px;
+  margin: -13px 0px 0px 0px;
   transition: all 0.3s ease-in-out;
+}
+
+ul#hash_menu.container {
+  width: 100%;
+}
+ul#hash_menu {
+  background-color: #fff;
+}
+.inner.hover1:hover .stage_wrap .cart_icon_wrap {
+    background: url(../images/cart_icon.png) no-repeat center center #fff;
+}
+.fa-angle-down {
+  color: #fff;
+}
+.fa-angle-down:hover {
+  color: #fff;
+}
+.fa-angle-right {
+  color: #fff;
+}
+.fa-angle-down:hover {
+  color: #fff;
+}
+#hidden {
+  display: none;
 }
