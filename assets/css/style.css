@@ -72,7 +72,7 @@
 .fa-angle-down:hover, .fa-angle-down:active {
   color: #fff;
 }
-.banner {
+.home .banner {
   top: -165px;
 }
 footer.footer_1 .footer-social a:hover {
@@ -86,4 +86,7 @@ footer.footer_1 .footer-social a:hover {
 }
 header.header_1.container {
   width: 100%;
+}
+#hash_menu {
+  background-color: #fff;
 }
