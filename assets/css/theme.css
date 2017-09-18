@@ -498,7 +498,7 @@ div.sec.sec3 {
 .blog_sec_wrap.owl-carousel .owl-controls .owl-nav [class*=owl-] {
   width: 18px;
   height: 27px;
-  text-indent: -99999px;
+  /*text-indent: -99999px;*/
   overflow: hidden;
   position: absolute;
   top: 37%;
@@ -546,13 +546,13 @@ div.sec.sec3 {
   text-align: center;
   width: 41px;
   height: 41px;
-  background: url(../images/list_icon.png) no-repeat center center #116647;
-  text-indent: -9999px;
+  /*background: url(../images/list_icon.png) no-repeat center center #116647;*/
+  /*text-indent: -9999px;*/
   border: none;
   outline: none;
 }
 .email_form_field .btn_1:hover {
-  background: url(../images/list_icon.png) no-repeat center center #139c49;
+  /*background: url(../images/list_icon.png) no-repeat center center #139c49;*/
 }
 footer.footer_1 {
   background-color: #fff;

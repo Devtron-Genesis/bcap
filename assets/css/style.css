@@ -75,3 +75,15 @@
 .banner {
   top: -165px;
 }
+footer.footer_1 .footer-social a:hover {
+  border-color: #212121;
+  color: #212121;
+}
+.blog_sec_wrap.owl-carousel .owl-controls .owl-nav .owl-prev, .blog_sec_wrap.owl-carousel .owl-controls .owl-nav .owl-next {
+  background-image: none;
+  color: #116647;
+  background-color: #fff;
+}
+header.header_1.container {
+  width: 100%;
+}

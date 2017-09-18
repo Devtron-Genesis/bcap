@@ -38,7 +38,7 @@ $(function() {
     items: 3,
     nav: true,
     dots: false,
-    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+    navText : ["<i class='fa fa-chevron-left fa-lg'></i>","<i class='fa fa-chevron-right fa-lg'></i>"],
     responsive: {
       0: {
         items: 1 //Mobile
@@ -156,3 +156,4 @@ $(document).on("scroll", function() {
 //         scrollTop: $("a.scroll_prompt").offset().top
 //       }, 'slow');
 //     });
+
