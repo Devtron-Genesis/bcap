@@ -146,30 +146,36 @@ $(document).on("scroll", function() {
 });
 
 $(document).ready(function(){
+if($("body.home").length){
+  new WOW().init();
+}// Create a clone of the menu, right next to original.
+// $('ul#hash_menu').addClass('original').clone().insertAfter('ul#hash_menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
 
-// Create a clone of the menu, right next to original.
-$('ul#hash_menu').addClass('original').clone().insertAfter('ul#hash_menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
-
-// scrollIntervalID = setInterval(stickIt, 10);
-
-$('.email_form_field .btn_1').attr("value", $.parseHTML("&#xf054;")[0].data).css('font-size', '17px');
-
-});
-function stickIt() {
-  var orgElementPos = $('.original').offset();
-  orgElementTop = orgElementPos.top;
-  if ($(window).scrollTop() >= (orgElementTop)) {
-    // scrolled past the original position; now only show the cloned, sticky element.
-    // Cloned element should always have same left position and width as original element.
-    orgElement = $('.original');
-    coordsOrgElement = orgElement.offset();
-    leftOrgElement = coordsOrgElement.left;
-    widthOrgElement = orgElement.css('width');
-    $('.cloned').css('left', leftOrgElement + 'px').css('top', 50).css('width', widthOrgElement).show();
-    $('.original').css('visibility', 'hidden');
-  } else {
-    // not scrolled past the menu; only show the original menu.
-    $('.cloned').hide();
-    $('.original').css('visibility', 'visible');
-  }
+// Sticky Sub menu
+if($("body.news").length || $("body.about").length) {
+  // scrollIntervalID = setInterval(stickIt, 10);
 }
+
+$('.email_form_field .btn_1').css('font-size', '17px');
+$('.email_form_field .btn_1').val($.parseHTML("&#xf054;")[0].data);
+});
+// function stickIt() {
+//   var orgElementPos = $('.original').offset();
+//   orgElementTop = orgElementPos.top;
+//   if ($(window).scrollTop() >= (orgElementTop)) {
+//     // scrolled past the original position; now only show the cloned, sticky element.
+//     // Cloned element should always have same left position and width as original element.
+//     orgElement = $('.original');
+//     coordsOrgElement = orgElement.offset();
+//     leftOrgElement = coordsOrgElement.left;
+//     widthOrgElement = orgElement.css('width');
+//     $('.cloned').css('left', leftOrgElement + 'px').css('top', 50).css('width', widthOrgElement).show();
+//     $('.original').css('visibility', 'hidden');
+//   } else {
+//     // not scrolled past the menu; only show the original menu.
+//     $('.cloned').hide();
+//     $('.original').css('visibility', 'visible');
+//   }
+// }
+
+$(".news_inner_menu").sticky({ topSpacing: 35, className: 'sticky', wrapperClassName: 'news_inner_menu_main' });

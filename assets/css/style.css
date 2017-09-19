@@ -90,3 +90,10 @@ header.header_1.container {
 #hash_menu {
   background-color: #fff;
 }
+.email_form_field .btn_1 {
+  font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.news_inner_menu.clone.sticky {
+  z-index: 1;
+  width: 100%;
+}
