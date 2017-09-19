@@ -458,7 +458,7 @@ div.sec.sec2, div.sec.sec2-mob {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-position: 50% 50%;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 div.sec.sec2.clone {
   background: url(../images/abt_tab_bg.jpg) no-repeat #006a4e;
@@ -466,7 +466,7 @@ div.sec.sec2.clone {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-position: 50% 50%;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 div.sec.sec3 {
   padding-top: 60px;
