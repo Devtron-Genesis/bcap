@@ -1497,8 +1497,8 @@ footer.footer_1 .footer-social a:hover {
   }
   .services_thumb_wrap .inner .overlay {
     opacity: 1;
-    text-align: center;
-    padding: 14% 8%;
+    text-align: left;
+    padding: 8% 8%;
   }
   .services_thumb_wrap .inner .overlay p {
     line-height: 1.4;
