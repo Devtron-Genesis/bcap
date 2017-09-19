@@ -451,7 +451,7 @@ div.sec {
   width: 14px;
 }
 .values_wrap .inner_details ul li:after {}
-div.sec.sec2 {
+div.sec.sec2, div.sec.sec2-mob {
   background-color: #1c1c1c;
   background: url(../images/sec2_bg.jpg) no-repeat #1c1c1c;
   background-size: cover;

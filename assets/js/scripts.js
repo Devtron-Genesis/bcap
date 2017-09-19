@@ -31,6 +31,16 @@ $(function() {
     nav: false,
     dots: true
   });
+  $(".mobile-slider").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 6000,
+    items: 1,
+    singleItem: true,
+    nav: true,
+    navText : ["<i class='fa fa-chevron-left fa-lg'></i>","<i class='fa fa-chevron-right fa-lg'></i>"],
+    dots: true
+  });
   $(".blog_sec_wrap").owlCarousel({
     loop: true,
     autoplay: true,
@@ -146,36 +156,13 @@ $(document).on("scroll", function() {
 });
 
 $(document).ready(function(){
-if($("body.home").length){
-  new WOW().init();
-}// Create a clone of the menu, right next to original.
-// $('ul#hash_menu').addClass('original').clone().insertAfter('ul#hash_menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
-
-// Sticky Sub menu
-if($("body.news").length || $("body.about").length) {
-  // scrollIntervalID = setInterval(stickIt, 10);
-}
-
-$('.email_form_field .btn_1').css('font-size', '17px');
-$('.email_form_field .btn_1').val($.parseHTML("&#xf054;")[0].data);
+  if($("body.home").length){
+    new WOW().init();
+  }
+  $('.email_form_field .btn_1').css('font-size', '17px').val($.parseHTML("&#xf054;")[0].data);
+  $(".news_inner_menu").sticky({ topSpacing: 35, className: 'sticky', wrapperClassName: 'news_inner_menu_main' });
+  $(".about .inner1").hover(function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/img1.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/cart_icon.png) no-repeat center center #fff')});
+  $(".about .inner2").hover(function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/img2.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/cart_icon.png) no-repeat center center #fff')});
+  $(".about .inner3").hover(function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/img3.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/cart_icon.png) no-repeat center center #fff')});
+  $(".about .inner4").hover(function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/img4.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/cart_icon.png) no-repeat center center #fff')});
 });
-// function stickIt() {
-//   var orgElementPos = $('.original').offset();
-//   orgElementTop = orgElementPos.top;
-//   if ($(window).scrollTop() >= (orgElementTop)) {
-//     // scrolled past the original position; now only show the cloned, sticky element.
-//     // Cloned element should always have same left position and width as original element.
-//     orgElement = $('.original');
-//     coordsOrgElement = orgElement.offset();
-//     leftOrgElement = coordsOrgElement.left;
-//     widthOrgElement = orgElement.css('width');
-//     $('.cloned').css('left', leftOrgElement + 'px').css('top', 50).css('width', widthOrgElement).show();
-//     $('.original').css('visibility', 'hidden');
-//   } else {
-//     // not scrolled past the menu; only show the original menu.
-//     $('.cloned').hide();
-//     $('.original').css('visibility', 'visible');
-//   }
-// }
-
-$(".news_inner_menu").sticky({ topSpacing: 35, className: 'sticky', wrapperClassName: 'news_inner_menu_main' });
