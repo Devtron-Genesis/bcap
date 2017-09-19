@@ -39,7 +39,9 @@ body {
   }
 .home .owl-dots {
   position: relative;
-  top: 110px;
+  top: 137px;
+  width: unset;
+  z-index: -99999;
 }
   .about .owl-prev {
     position: relative;
@@ -55,7 +57,9 @@ body {
   }
 .about .owl-dots {
   position: relative;
-  top: -10px;
+  top: 19px;
+  width: unset;
+  z-index: -99999;
 }
 .portfolio_top_wrap p {
     padding-right: 15px;

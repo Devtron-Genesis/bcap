@@ -895,7 +895,8 @@ footer.footer_1 .footer-social a:hover {
   color: #116647;
 }
 .news_inner_menu {
-  background-color: #eeeeee;
+  background-color: #fff;
+  z-index: 1;
 }
 .news_inner_menu.clone {
   background-color: #fff;
