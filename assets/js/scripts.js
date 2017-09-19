@@ -163,7 +163,7 @@ $(document).ready(function(){
     new WOW().init();
   }
   $('.email_form_field .btn_1').css('font-size', '17px').val($.parseHTML("&#xf054;")[0].data);
-  $(".news_inner_menu").sticky({ topSpacing: 35, className: 'sticky', wrapperClassName: 'news_inner_menu_main' });
+  $(".news_inner_menu").sticky({ topSpacing: 40, className: 'sticky', wrapperClassName: 'news_inner_menu_main' });
   $(".about .inner1").hover(function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/img1.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/cart_icon.png) no-repeat center center #fff')});
   $(".about .inner2").hover(function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/img2.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/cart_icon.png) no-repeat center center #fff')});
   $(".about .inner3").hover(function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/img3.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/assets/images/cart_icon.png) no-repeat center center #fff')});
