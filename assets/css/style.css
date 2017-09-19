@@ -100,3 +100,9 @@ header.header_1.container {
 .sec.sec2-mob.visible-xs.visible-sm, .sec.sec2-mob.visible-xs.visible-sm h3, .sec.sec2-mob.visible-xs.visible-sm h2, .sec.sec2-mob.visible-xs.visible-sm h5 {
   color: #fff;
 }
+.news_inner_menu.sticky {
+  width: 100%;
+}
+.news_inner_menu.sticky .container {
+  width: 100%;
+}
