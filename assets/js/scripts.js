@@ -156,6 +156,9 @@ $(document).on("scroll", function() {
 });
 
 $(document).ready(function(){
+  $('.load_more').click(function(){
+    $(this).prev().clone().prependTo($(this));
+  });
   if($("body.home").length){
     new WOW().init();
   }
