@@ -60,11 +60,6 @@
   margin: -13px 0px 0px 0px;
   transition: all 0.3s ease-in-out;
 }
-.services_thumb_wrap .inner .overlay h3, .services_thumb_wrap .inner .overlay p {
-  position: relative;
-  top:calc(50% - 50px/2);
-  /*vertical-align: middle;*/
-}
 .fa-angle-down {
   color: #fff!important;
   margin-bottom: 70px;
