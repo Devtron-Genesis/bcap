@@ -1377,7 +1377,7 @@ footer.footer_1 .footer-social a:hover {
     margin-top: 30px;
   }
   .abt_boxes .inner {
-    width: auto !important;
+    /*width: auto !important;*/
     height: auto !important;
   }
   .abt_boxes .inner:last-of-type {
