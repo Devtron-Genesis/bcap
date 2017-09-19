@@ -1155,6 +1155,7 @@ footer.footer_1 .footer-social a:hover {
   }
   header.mobile_header .logo img {
     width: 57px;
+    display: none;
   }
   .side_menu_toogle {
     width: 28px;
