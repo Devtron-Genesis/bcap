@@ -109,3 +109,6 @@ header.header_1.container {
 #hidden {
   display: none;
 }
+#post-16 .banner {
+  top: -100px;
+}
