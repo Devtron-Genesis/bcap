@@ -54,7 +54,7 @@ get_header();
           <div class="col-sm-6">
             <a class="inner" href="javasript:;">
               <figure>
-                <img class="img-responsive" src="assets/images/services_thumb_1.jpg">
+                <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/images/services_thumb_1.jpg">
                 <h3>
                   WE THINK, OPERATE & INVEST GLOBALLY
                 </h3>
@@ -71,7 +71,7 @@ get_header();
             <div class="col-sm-6">
               <a class="inner" href="javasript:;">
                 <figure>
-                  <img class="img-responsive" src="assets/images/services_thumb_2.jpg">
+                  <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/images/services_thumb_2.jpg">
                   <h3>
                     WE’RE MORE THAN JUST INVESTORS
                   </h3>
@@ -90,7 +90,7 @@ get_header();
               <div class="col-sm-6">
                 <a class="inner" href="javasript:;">
                   <figure>
-                    <img class="img-responsive" src="assets/images/services_thumb_3.jpg">
+                    <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/images/services_thumb_3.jpg">
                     <h3>
                       WE ARE BETTER TOGETHER
                     </h3>
@@ -107,7 +107,7 @@ get_header();
                 <div class="col-sm-6">
                   <a class="inner" href="javasript:;">
                     <figure>
-                      <img class="img-responsive" src="assets/images/services_thumb_4.jpg">
+                      <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/images/services_thumb_4.jpg">
                       <h3>
                         BRIDGING THE GAP
                       </h3>
