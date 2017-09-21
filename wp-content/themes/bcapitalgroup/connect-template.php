@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Template Name: Connect
@@ -13,27 +13,9 @@
  */
 
 
-get_header(); 
+get_header();
 
 ?>
- <div class="banner">
-      <ul>
-        <li>
-          <img class="img-responsive show_on_desktop" src="<?php echo get_template_directory_uri()?>/assets/images/team_inner_banner.jpg"> <img class="img-responsive show_on_mobile" src="<?php echo get_template_directory_uri()?>/assets/images/team_inner_banner_mobie.jpg">
-          <div class="caption">
-            <article>
-              <h1>
-               Connect
-              </h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-              </p>
-            </article>
-          </div>
-        </li>
-      </ul><a class="scroll_prompt" href="#sec-start"></a>
-    </div>
-
 <section id="content" role="main">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

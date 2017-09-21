@@ -31,6 +31,16 @@ $(function() {
     nav: false,
     dots: true
   });
+  $(".mobile-slider").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 6000,
+    items: 1,
+    singleItem: true,
+    nav: true,
+    navText : ["<i class='fa fa-chevron-left fa-lg'></i>","<i class='fa fa-chevron-right fa-lg'></i>"],
+    dots: true
+  });
   $(".blog_sec_wrap").owlCarousel({
     loop: true,
     autoplay: true,
@@ -38,6 +48,7 @@ $(function() {
     items: 3,
     nav: true,
     dots: false,
+    navText : ["<i class='fa fa-chevron-left fa-lg'></i>","<i class='fa fa-chevron-right fa-lg'></i>"],
     responsive: {
       0: {
         items: 1 //Mobile
@@ -78,9 +89,9 @@ $(function() {
   $(".mobile_header").sticky({ topSpacing: 0, className: 'sticky', wrapperClassName: 'mobile_header_main' });
   $(window).scroll(function() {
     if ($("header").hasClass("sticky")) {
-      $('.header_1 .logo img').attr('src', 'http://dev.responsiveidea.com/b_capital_html/assets/images/logo_sticky.png');
+      $('.header_1 .logo img').attr('src', '/wp-content/uploads/2017/09/logo_sticky.png');
     } else {
-      $('.header_1 .logo img').attr('src', 'http://dev.responsiveidea.com/b_capital_html/assets/images/logo.png');
+      $('.header_1 .logo img').attr('src', '/wp-content/uploads/2017/09/logo.png');
     }
   });
   $(".side_menu_toogle").click(function(e) {
@@ -124,7 +135,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: target.offset().top - 95
+          scrollTop: target.offset().top - 25
         }, 1000);
         e.preventDefault();
       }
@@ -135,48 +146,30 @@ $(function() {
 $(document).on("scroll", function() {
   if ($(document).scrollTop() > 0) {
     $("header.header_1.sticky").addClass("head-shrink");
-    $(".main_menu_wrap.clearfix").addClass("menu-shrink");
+    $(".menu-main-top-menu-container.clearfix").addClass("menu-shrink");
     $(".logo").addClass("logo-shrink");
   } else {
     $("header.header_1.sticky").removeClass("head-shrink");
-    $(".main_menu_wrap.clearfix").removeClass("menu-shrink");
+    $(".menu-main-top-menu-container.clearfix").removeClass("menu-shrink");
     $(".logo").removeClass("logo-shrink");
   }
 });
+
 $(document).ready(function(){
-
-// Create a clone of the menu, right next to original.
-$('ul#hash_menu').addClass('original').clone().insertAfter('ul#hash_menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
-
-scrollIntervalID = setInterval(stickIt, 10);
-
-
+  $('.porfolio_wrap a').parent('p').remove();
+  $('.porfolio_wrap a > p').remove();
+  $('.connect').closest('#wrapper').find('.header_1').addClass('header_1 with_out_banner');
+  $('.menu-main-top-menu-container').addClass('clearfix');
+  $('.load_more').click(function(){
+    $(this).prev().clone().prependTo($(this));
+  });
+  if($("body.home").length){
+    new WOW().init();
+  }
+  $('.email_form_field .btn_1').css('font-size', '17px').val($.parseHTML("&#xf054;")[0].data);
+  $(".news_inner_menu").sticky({ topSpacing: 40, className: 'sticky', wrapperClassName: 'news_inner_menu_main' });
+  $(".about .inner1").hover(function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/img1.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/cart_icon.png) no-repeat center center #fff')});
+  $(".about .inner2").hover(function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/img2.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/cart_icon.png) no-repeat center center #fff')});
+  $(".about .inner3").hover(function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/img3.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/cart_icon.png) no-repeat center center #fff')});
+  $(".about .inner4").hover(function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/img4.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/cart_icon.png) no-repeat center center #fff')});
 });
-
-function stickIt() {
-  // if(!($('.home').length[0])){
-  //   alert('sdsdf');
-    var orgElementPos = $('.original').offset();
-    orgElementTop = orgElementPos.top;               
-
-    if ($(window).scrollTop() >= (orgElementTop)) {
-      // scrolled past the original position; now only show the cloned, sticky element.
-
-      // Cloned element should always have same left position and width as original element.     
-      orgElement = $('.original');
-      coordsOrgElement = orgElement.offset();
-      leftOrgElement = coordsOrgElement.left;  
-      widthOrgElement = orgElement.css('width');
-      $('.cloned').css('left',leftOrgElement+'px').css('top',50).css('width',widthOrgElement).show();
-      $('.original').css('visibility','hidden');
-    } else {
-      // not scrolled past the menu; only show the original menu.
-      $('.cloned').hide();
-      $('.original').css('visibility','visible');
-    }
-   }
-
-
-function toggler(divId) {
-    $("#" + divId).toggle();
-}

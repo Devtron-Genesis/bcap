@@ -16,11 +16,11 @@ $("#wa_chpc_slider").carouFredSel({
 			play:auto_s,
 			timeoutDuration:parseInt(chpcsArgs.time_out)
 			},
-	prev	: {	
+	prev	: {
 		button	: "#wa_chpc_slider_prev",
 		key		: "left"
 	},
-	next	: { 
+	next	: {
 		button	: "#wa_chpc_slider_next",
 		key		: "right"
 	},
@@ -28,10 +28,10 @@ $("#wa_chpc_slider").carouFredSel({
 	scroll : {
 fx: chpcsArgs.fx,
 easing : chpcsArgs.easing_effect,
-duration: parseInt(chpcsArgs.duration),					
+duration: parseInt(chpcsArgs.duration),
 pauseOnHover	: true
 },
-transition:css_transition 
+transition:css_transition
 });
 
 
@@ -40,17 +40,17 @@ transition:css_transition
 if ( touch_swipe ) {
 
 			//touch swipe
-			jQuery("#wa_chpc_slider").swipe({ 
-			excludedElements: "button, input, select, textarea, .noSwipe", 
-			swipeLeft: function() { 
-			jQuery('#wa_chpc_slider').trigger('next', 'auto'); 
-			}, 
-			swipeRight: function() { 
-			jQuery('#wa_chpc_slider').trigger('prev', 'auto'); 
-			console.log("swipeRight"); 
-			}, 
-			tap: function(event, target) { 
-			jQuery(target).closest('.chpcs_title').find('a').click(); 
+			jQuery("#wa_chpc_slider").swipe({
+			excludedElements: "button, input, select, textarea, .noSwipe",
+			swipeLeft: function() {
+			jQuery('#wa_chpc_slider').trigger('next', 'auto');
+			},
+			swipeRight: function() {
+			jQuery('#wa_chpc_slider').trigger('prev', 'auto');
+			console.log("swipeRight");
+			},
+			tap: function(event, target) {
+			jQuery(target).closest('.chpcs_title').find('a').click();
 			}
 			});
 
