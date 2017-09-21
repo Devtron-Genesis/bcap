@@ -1,0 +1,46 @@
+0000.111 (R) [notice] Looking for db archive: file name: backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-db.gz
+0000.111 (R) [notice] Archive is expected to be size: 166 KB: OK
+0000.316 (R) [notice] Looking for plugins archive: file name: backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-plugins.zip
+0000.316 (R) [notice] Archive is expected to be size: 10407.2 KB: OK
+0000.452 (R) [notice] Looking for themes archive: file name: backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-themes.zip
+0000.452 (R) [notice] Archive is expected to be size: 18620.8 KB: OK
+0000.599 (R) [notice] Looking for uploads archive: file name: backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-uploads.zip
+0000.599 (R) [notice] Archive is expected to be size: 8220 KB: OK
+0000.758 (R) [notice] Unpacking backup... (backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-db.gz, 0.2 Mb)
+0000.789 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.817 (R) [notice] Enabling Maintenance mode&#8230;
+0000.838 (R) [notice] Backup of: http://alsadiqservices.com/testing
+0000.856 (R) [notice] Content URL: http://alsadiqservices.com/testing/wp-content
+0000.856 (R) [notice] Uploads URL: http://alsadiqservices.com/testing/wp-content/uploads
+0000.856 (R) [notice] Old table prefix: cg_
+0000.856 (R) [notice] Site information: multisite = 0
+0000.859 (R) [notice] New table prefix: cg_
+0000.866 (R) [notice] Processing table (InnoDB):  cg_options
+0001.131 (R) [notice] Processing table (InnoDB):  cg_users
+0001.164 (R) [notice] Processing table (InnoDB):  cg_usermeta
+0001.205 (R) [notice] Processing table (InnoDB):  cg_commentmeta
+0001.234 (R) [notice] Processing table (InnoDB):  cg_comments
+0001.264 (R) [notice] Processing table (InnoDB):  cg_links
+0001.288 (R) [notice] Processing table (InnoDB):  cg_postmeta
+0001.343 (R) [notice] Processing table (InnoDB):  cg_posts
+0001.405 (R) [notice] Processing table (InnoDB):  cg_term_relationships
+0001.429 (R) [notice] Processing table (InnoDB):  cg_term_taxonomy
+0001.461 (R) [notice] Processing table (InnoDB):  cg_termmeta
+0001.495 (R) [notice] Processing table (InnoDB):  cg_terms
+0001.520 (R) [notice] Processing table (InnoDB):  cg_responsive_menu
+0001.572 (R) [notice] Disabling Maintenance mode&#8230;
+0001.585 (R) [notice] Finished: lines processed: 45 in 0.79 seconds
+0001.586 (R) [notice] Cleaning up rubbish...
+0001.612 (R) [notice] Unpacking backup... (backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-plugins.zip, 10.2 Mb)
+0010.435 (R) [notice] Moving old data out of the way...
+0011.633 (R) [notice] Moving unpacked backup into place...
+0018.483 (R) [notice] Cleaning up rubbish...
+0018.517 (R) [notice] Unpacking backup... (backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-themes.zip, 18.2 Mb)
+0020.523 (R) [notice] Moving old data out of the way...
+0020.653 (R) [notice] Moving unpacked backup into place...
+0021.007 (R) [notice] Cleaning up rubbish...
+0021.021 (R) [notice] Unpacking backup... (backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-uploads.zip, 8 Mb)
+0023.874 (R) [notice] Moving old data out of the way...
+0024.082 (R) [notice] Moving unpacked backup into place...
+0024.255 (R) [notice] Cleaning up rubbish...
+0024.290 (R) [notice] Restore successful!

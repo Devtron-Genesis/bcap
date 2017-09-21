@@ -1,0 +1,79 @@
+0000.003 () Opened log file at time: Thu, 21 Sep 2017 08:19:38 +0000 on http://bcap.local.com
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.7 WP: 4.8.2 PHP: 5.6.30 (apache2handler, Darwin Shahzads-MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Thu Jun 15 17:36:27 PDT 2017; root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64) MySQL: 5.7.16 WPLANG: en_US Server: Apache/2.4.25 (Unix) PHP/5.6.30 LibreSSL/2.2.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.6M | 24.3M) multisite: N openssl: LibreSSL 2.2.7 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 23004.8 MB
+0000.005 () Restore job started. Entities to restore: plugins, themes, uploads, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.739 () Entity: db
+0000.739 () restore_backup(backup_file=backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-db.gz, type=db, info=a:0:{}, last_one=)
+0000.758 () Unpacking backup... (backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-db.gz, 0.2 Mb)
+0000.788 () Database successfully unpacked
+0000.788 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.789 () Using direct MySQL access; value of use_mysqli is: 1
+0000.817 () Max packet size: 32 MB
+0000.817 () Entering maintenance mode
+0000.817 () Enabling Maintenance mode&#8230;
+0000.838 () Backup of: http://alsadiqservices.com/testing
+0000.856 () Content URL: http://alsadiqservices.com/testing/wp-content
+0000.856 () Uploads URL: http://alsadiqservices.com/testing/wp-content/uploads
+0000.856 () Old table prefix: cg_
+0000.856 () Site information: multisite=0
+0000.859 () New table prefix: cg_
+0000.866 () Processing table (InnoDB): cg_options
+0000.956 () Restoring prior UD configuration (table: cg_options; keys: 89)
+0001.131 () Processing table (InnoDB): cg_users
+0001.164 () Processing table (InnoDB): cg_usermeta
+0001.205 () Processing table (InnoDB): cg_commentmeta
+0001.234 () Processing table (InnoDB): cg_comments
+0001.264 () Processing table (InnoDB): cg_links
+0001.288 () Processing table (InnoDB): cg_postmeta
+0001.343 () Processing table (InnoDB): cg_posts
+0001.405 () Processing table (InnoDB): cg_term_relationships
+0001.429 () Processing table (InnoDB): cg_term_taxonomy
+0001.461 () Processing table (InnoDB): cg_termmeta
+0001.495 () Processing table (InnoDB): cg_terms
+0001.520 () Processing table (InnoDB): cg_responsive_menu
+0001.564 () Unlocking database and leaving maintenance mode
+0001.572 () Disabling Maintenance mode&#8230;
+0001.585 () Finished: lines processed: 45 in 0.79 seconds
+0001.586 () Cleaning up rubbish...
+0001.603 () Entity: plugins
+0001.603 () restore_backup(backup_file=backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:52:"/Library/WebServer/Documents/bcap/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.612 () Unpacking backup... (backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-plugins.zip, 10.2 Mb)
+0010.431 () Moving old data: filesystem method / updraft_dir is potentially possible
+0010.435 () Moving old data: can potentially use wp_filesystem method / -old
+0010.435 () Moving old data out of the way...
+0011.625 () Top-level entities being moved: akismet, carousel-horizontal-posts-content-slider, custom-post-type-ui, hello.php, index.php, responsive-menu, the-post-grid, tlp-team, updraftplus, wp-ultimate-post-grid
+0011.633 () Moving unpacked backup into place...
+0018.190 () Top-level entities being moved: akismet, carousel-horizontal-posts-content-slider, custom-post-type-ui, hello.php, index.php, responsive-menu, the-post-grid, tlp-team, updraftplus, wp-ultimate-post-grid
+0018.212 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0018.238 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0018.258 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0018.302 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0018.323 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0018.386 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0018.419 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0018.451 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0018.482 () Cleaning up rubbish...
+0018.504 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/plugins (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0018.508 () Entity: themes
+0018.509 () restore_backup(backup_file=backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-themes.zip, type=themes, info=a:2:{s:4:"path";s:51:"/Library/WebServer/Documents/bcap/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0018.517 () Unpacking backup... (backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-themes.zip, 18.2 Mb)
+0020.507 () Moving old data: filesystem method / updraft_dir is potentially possible
+0020.523 () Moving old data: can potentially use wp_filesystem method / -old
+0020.523 () Moving old data out of the way...
+0020.652 () Top-level entities being moved: bcapitalgroup, index.php
+0020.653 () Moving unpacked backup into place...
+0020.978 () Top-level entities being moved: bcapitalgroup, index.php
+0020.999 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/themes/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0021.006 () Cleaning up rubbish...
+0021.014 () Entity: uploads
+0021.014 () restore_backup(backup_file=backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:52:"/Library/WebServer/Documents/bcap/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=1)
+0021.021 () Unpacking backup... (backup_2017-09-21-0716_b_Capital_Group_ead8a2f96376-uploads.zip, 8 Mb)
+0023.860 () Moving old data: filesystem method / updraft_dir is potentially possible
+0023.873 () Moving old data: can potentially use wp_filesystem method / -old
+0023.874 () Moving old data out of the way...
+0024.082 () Moving unpacked backup into place...
+0024.251 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/uploads/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.255 () Cleaning up rubbish...
+0024.283 () PHP event: code E_NOTICE: Undefined index: /Library/WebServer/Documents/bcap/wp-content/uploads (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0024.290 () Restore successful!
+0024.290 () Restore successful
