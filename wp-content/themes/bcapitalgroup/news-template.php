@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Template Name: News
@@ -13,41 +13,32 @@
  */
 
 
-get_header(); 
+get_header();
 
 ?>
-<div class="banner">
-      <ul>
-        <li>
-          <img class="img-responsive show_on_desktop" src="http://alsadiqservices.com/testing/wp-content/uploads/2017/09/news_inner_banner.jpg"> <img class="img-responsive show_on_mobile" src="http://alsadiqservices.com/testing/wp-content/uploads/2017/09/news_inner_banner_mobile.jpg">
-          <div class="caption">
-            <article>
-              <h1>
-                news
-              </h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-              </p>
-            </article>
-          </div>
-        </li>
-      </ul><a class="scroll_prompt" href="#sec-start"></a>
-    </div>
+
+<section id="content" role="main">
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+<section class="entry-content">
+<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+<?php the_content(); ?>
+<div class="entry-links"><?php wp_link_pages(); ?></div>
+</section>
+</article>
+<?php //if ( ! post_password_required() ) comments_template( '', true ); ?>
+<?php endwhile; endif; ?>
+</section>
+
+
+
 <!-- **************************-->
 
 
-<div class="sec" id="sec-start">
-      <div class="container">
-      	 <div class="news_wrap">
-      	 	  <div class="row">
-<?php echo do_shortcode('[pgaf_post_filter design="design-2" grid="2" cat_id="8,9,10" show_read_more="false" show_category_name="false" content_words_limit="10" limit="10"]'); ?>
-</div>
-</div>
-</div>
-</div>
 
 <?php //echo do_shortcode('[pgaf_post_grid design="design-2" grid="2" limit="4"]'); ?>
- 
 
-    
+
+
 <?php get_footer(); ?>

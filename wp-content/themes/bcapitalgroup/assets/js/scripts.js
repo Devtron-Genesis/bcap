@@ -13,7 +13,7 @@ $(function() {
   }).on('hidden.bs.collapse', function() {
     $(this).parent().find(".panel-heading").removeClass("active");
   });
-  $("#home_banner > ul").owlCarousel({
+ $("#home_banner > ul").owlCarousel({
     loop: true,
     autoplay: true,
     autoplayTimeout: 6000,
