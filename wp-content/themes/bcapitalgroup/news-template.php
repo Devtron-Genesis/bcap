@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Template Name: News
@@ -13,13 +13,13 @@
  */
 
 
-get_header(); 
+get_header();
 
 ?>
 <div class="banner">
       <ul>
         <li>
-          <img class="img-responsive show_on_desktop" src="http://alsadiqservices.com/testing/wp-content/uploads/2017/09/news_inner_banner.jpg"> <img class="img-responsive show_on_mobile" src="http://alsadiqservices.com/testing/wp-content/uploads/2017/09/news_inner_banner_mobile.jpg">
+          <img class="img-responsive show_on_desktop" src="/wp-content/uploads/2017/09/news_inner_banner.jpg"> <img class="img-responsive show_on_mobile" src="/wp-content/uploads/2017/09/news_inner_banner_mobile.jpg">
           <div class="caption">
             <article>
               <h1>
@@ -47,7 +47,7 @@ get_header();
 </div>
 
 <?php //echo do_shortcode('[pgaf_post_grid design="design-2" grid="2" limit="4"]'); ?>
- 
 
-    
+
+
 <?php get_footer(); ?>
