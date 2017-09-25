@@ -12,13 +12,77 @@
 
 </div><!-- .site-content -->
 
-<div class="container blogSliderCarousel">
-<?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
+<div class="sec sec3">
+  <div class="container">
+    <div class="blog_sec_wrap">
+      <div class="inner">
+        <h4>
+          BLOG TITLE
+        </h4>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="inner">
+        <h4>
+          BLOG TITLE
+        </h4>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="inner">
+        <h4>
+          BLOG TITLE
+        </h4>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="inner">
+        <h4>
+          BLOG TITLE
+        </h4>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="inner">
+        <h4>
+          BLOG TITLE
+        </h4>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="inner">
+        <h4>
+          BLOG TITLE
+        </h4>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
+      </div>
+    </div>
+  </div>
 </div>
-<?php echo do_shortcode('[content_block id=230]');?>
+<div class="home_email_sec_wrap">
+  <div class="container">
+    <h2>
+      DATA CAPTURE TITLE
+    </h2>
+    <p>
+      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+    </p>
+    <div class="email_form_field">
+      <form method="post">
+        <span><input class="form-control" placeholder="Enter email..." type="email"> <input class="btn_1" type="submit"></span>
+      </form>
+    </div>
+  </div>
+</div>
 <footer class="footer_1">
- <div class="container">
-
+  <div class="container">
     <div class="row">
       <div class="col-sm-8">
         <p>
@@ -36,36 +100,12 @@
     </div>
   </div>
 </footer>
+
+
 </div><!-- .site -->
 
 
 <?php wp_footer(); ?>
-<script>
-
-$(document).ready(function() {
-var stickyNavTop = $('.pgafu-filter').offset().top - 85;
- 
-var stickyNav = function(){
-var scrollTop = $(window).scrollTop();
-      
-if (scrollTop > stickyNavTop) { 
-    $('.pgafu-filter').addClass('stickyNews');
-} else {
-    $('.pgafu-filter').removeClass('stickyNews'); 
-}
-};
- 
-stickyNav();
- 
-$(window).scroll(function() {
-  stickyNav();
-});
-}, 500);
-
-
-
-</script>
-
 
 </body>
 </html>
