@@ -22,7 +22,7 @@
 .clearfix:after, .tlp-container:after, .tlp-container-fluid:after, .tlp-row:after { clear: both; }
 .tlp-row { margin-left: -15px; margin-right: -15px; }
 .tlp-col-xs-1, .tlp-col-sm-1, .tlp-col-md-1, .tlp-col-lg-1, .tlp-col-xs-2, .tlp-col-sm-2, .tlp-col-md-2, .tlp-col-lg-2, .tlp-col-xs-3, .tlp-col-sm-3, .tlp-col-md-3, .tlp-col-lg-3, .tlp-col-xs-4, .tlp-col-sm-4, .tlp-col-md-4, .tlp-col-lg-4, .tlp-col-xs-5, .tlp-col-sm-5, .tlp-col-md-5, .tlp-col-lg-5, .tlp-col-xs-6, .tlp-col-sm-6, .tlp-col-md-6, .tlp-col-lg-6, .tlp-col-xs-7, .tlp-col-sm-7, .tlp-col-md-7, .tlp-col-lg-7, .tlp-col-xs-8, .tlp-col-sm-8, .tlp-col-md-8, .tlp-col-lg-8, .tlp-col-xs-9, .tlp-col-sm-9, .tlp-col-md-9, .tlp-col-lg-9, .tlp-col-xs-10, .tlp-col-sm-10, .tlp-col-md-10, .tlp-col-lg-10, .tlp-col-xs-11, .tlp-col-sm-11, .tlp-col-md-11, .tlp-col-lg-11, .tlp-col-xs-12, .tlp-col-sm-12, .tlp-col-md-12, .tlp-col-lg-12, .tlp-col-xs-24, .tlp-col-sm-24, .tlp-col-md-24, .tlp-col-lg-24 { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px; }
-.tlp-col-xs-1, .tlp-col-xs-2, .tlp-col-xs-3, .tlp-col-xs-4, .tlp-col-xs-5, .tlp-col-xs-6, .tlp-col-xs-7, .tlp-col-xs-8, .tlp-col-xs-9, .tlp-col-xs-10, .tlp-col-xs-11, .tlp-col-xs-12 { float: left; } 
+.tlp-col-xs-1, .tlp-col-xs-2, .tlp-col-xs-3, .tlp-col-xs-4, .tlp-col-xs-5, .tlp-col-xs-6, .tlp-col-xs-7, .tlp-col-xs-8, .tlp-col-xs-9, .tlp-col-xs-10, .tlp-col-xs-11, .tlp-col-xs-12 { float: left; }
 .tlp-col-xs-24 { width: 20%; }.tlp-col-xs-12 { width: 100%; } .tlp-col-xs-11 { width: 91.66666667%; } .tlp-col-xs-10 { width: 83.33333333%; } .tlp-col-xs-9 { width: 75%; } .tlp-col-xs-8 { width: 66.66666667%; } .tlp-col-xs-7 { width: 58.33333333%; } .tlp-col-xs-6 { width: 50%; } .tlp-col-xs-5 { width: 41.66666667%; } .tlp-col-xs-4 { width: 33.33333333%; } .tlp-col-xs-3 { width: 25%; } .tlp-col-xs-2 { width: 16.66666667%; } .tlp-col-xs-1 { width: 8.33333333%; }
 
 /************************ End Grid System *********************/
@@ -85,7 +85,7 @@
     content: none;
 }
 .tlp-team .tpl-social a {
-    text-align: center;
+    /*text-align: center;
     color: #fff;
     background: #007acc;
     text-decoration: none;
@@ -95,13 +95,13 @@
     font-size: 20px;
     padding: 0px;
     width: 30px;
-    height: 30px;
+    height: 30px;*/
 }
 .tlp-team .tpl-social a .fa {
     padding: 7px 0px 0px;
     display: block;
 }
-.tlp-team .tpl-social a:hover .fa-facebook {
+/*.tlp-team .tpl-social a:hover .fa-facebook {
     background: #3b5999;
     color: #fff;
     width: 30px;
@@ -142,7 +142,7 @@
     color: #fff;
     width: 30px;
     height: 30px;
-}
+}*/
 .tlp-team .round-img .tpl-social a {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
