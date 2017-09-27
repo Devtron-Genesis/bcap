@@ -1,14 +1,14 @@
-@media only screen and (min-width: 1280px) and (max-width:1400px ) {
+@media only screen and (min-width: 1280px) and (max-width:1400px) {
   .services_thumb_wrap .inner .overlay {
     padding: 18% 8%;
   }
 }
-@media only screen and (min-width: 1440px) and (max-width:1600px ) {
+@media only screen and (min-width: 1440px) and (max-width:1600px) {
   .services_thumb_wrap .inner .overlay {
     padding: 20% 8%;
   }
 }
-@media only screen and (min-width: 1680px) and (max-width:1800px ) {
+@media only screen and (min-width: 1680px) and (max-width:1800px) {
   .services_thumb_wrap .inner .overlay {
     padding: 21% 8%;
   }
@@ -17,8 +17,11 @@
   .services_thumb_wrap .inner .overlay {
     padding: 25% 8%;
   }
+  button#responsive-menu-button {
+    background: transparent!important;
+  }
 }
-@media only screen and (min-width: 426px) and (max-width:767px ) {
+@media only screen and (min-width: 426px) and (max-width:767px) {
   .home .banner {
     top: -52px;
   }
@@ -142,10 +145,13 @@
     top: -106px;
     left: -160px;
   }
+  button#responsive-menu-button {
+    background: transparent!important;
+  }
 }
-@media only screen and (min-width: 320px) and (max-width:425px ) {
+@media only screen and (min-width: 320px) and (max-width:425px) {
   .home .banner {
-    top: -170px;
+    top: -28px;
   }
   .home .owl-prev {
     position: relative;
@@ -258,16 +264,40 @@
     height: 588px;
   }
   .blog_sec_wrap.owl-carousel .owl-controls .owl-nav .owl-next {
-    position: relative;
-    top: -106px;
-    left: 153px;
+    position: absolute;
   }
-  .blog_sec_wrap.owl-carousel .owl-controls .owl-nav .owl-prev {
+ /* .blog_sec_wrap.owl-carousel .owl-controls .owl-nav .owl-prev {
     position: relative;
     top: -106px;
     left: -160px;
-  }
+  }*/
   .services_thumb_wrap .inner .overlay {
     padding: 2% 4%;
+  }
+  .tpl-social {
+    position: relative;
+    float: right;
+    top: -57px;
+    right: 12px;
+  }
+  h2.tlp-member-title, .tlp-position, p.location {
+    position: relative;
+    top: -400px;
+  }
+  .tlp-member-feature-img {
+    position: relative;
+    top: 303px;
+  }
+  .pgafu-filter li {
+    display: block!important;
+  }
+  .sub_menu {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  button#responsive-menu-button {
+    background: transparent!important;
   }
 }

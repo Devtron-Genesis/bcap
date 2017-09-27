@@ -135,7 +135,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: target.offset().top - 25
+          scrollTop: target.offset().top + 119
         }, 1000);
         e.preventDefault();
       }
@@ -168,8 +168,10 @@ $(document).ready(function(){
   }
   $('.email_form_field .btn_1').css('font-size', '17px').val($.parseHTML("&#xf054;")[0].data);
   $(".news_inner_menu").sticky({ topSpacing: 40, className: 'sticky', wrapperClassName: 'news_inner_menu_main' });
+  $("ul.pgafu-filter").sticky({ topSpacing: 50, className: 'sticky', wrapperClassName: 'news_inner_menu_main' });
   $(".about .inner1").hover(function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/img1.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/cart_icon.png) no-repeat center center #fff')});
   $(".about .inner2").hover(function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/img2.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/cart_icon.png) no-repeat center center #fff')});
   $(".about .inner3").hover(function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/img3.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/cart_icon.png) no-repeat center center #fff')});
   $(".about .inner4").hover(function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/img4.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/cart_icon.png) no-repeat center center #fff')});
 });
+
