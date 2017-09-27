@@ -53,7 +53,7 @@ if ( ! class_exists( 'TPLshortCode' ) ):
 			$teamQuery = new WP_Query( $args );
 			$layoutID  = "tlp-team-" . mt_rand();
 			if ( $teamQuery->have_posts() ) {
-				$html .= "<div class='container-fluid tlp-team' id='{$layoutID}'>";
+				$html .= "<div class='container tlp-team' id='{$layoutID}'>";
 				$html .= $this->customStyle( $layoutID, $atts );
 				if ( $atts['layout'] == 'isotope' ) {
 					$html .= '<div class="button-group sort-by-button-group">

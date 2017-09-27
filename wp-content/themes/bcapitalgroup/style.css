@@ -93,7 +93,7 @@ header.header_1.container {
   width: 100%;
 }
 #video {
-  object-fit: initial;
+  object-fit: cover;
   width: 100%;
   height: auto;
 }
@@ -258,4 +258,55 @@ p.location {
 }
 .banner {
   top: -120px;
+}
+.blog_sec_wrap.owl-carousel .owl-controls .owl-nav .owl-next {
+  right: -19px;
+}
+.abt_boxes .inner:last-of-type {
+  margin-left: 250px;
+}
+.stage_wrap .row:last-of-type .inner {
+  padding-top: 39px;
+}
+.stage_wrap .cart_icon_wrap {
+  bottom: 7px;
+}
+.sec.sp_padding {
+  padding: 193px 0px;
+}
+.page-template-portfolio-template .heading_style_1 {
+  margin-bottom: 60px;
+}
+.team_wrap {
+  margin-top: 93px;
+}
+.testimonial_slider {
+  padding: 111px 100px 127px 100px
+}
+.BCGlogo {
+  margin-bottom: 30px;
+}
+span.pgafu-user-img, span.pgafu-time img {
+  display: none!important;
+}
+h2.tlp-member-title {
+  margin-top: -14px;
+}
+img.attachment-large.size-large.wp-post-image {
+  margin-left: 23px;
+}
+.tlp-team.container {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.heading_style_2 {
+  padding-top: 34px;
+}
+.team_wrap_1 {
+    margin-top: 75px;
+}
+.tlp-team .tlp-equal-height {
+  margin-bottom: 9px!important;
+  margin-right: -21px;
+  width: 34.4%;
 }

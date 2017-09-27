@@ -31,7 +31,7 @@ get_header();
             </article>
           </div>
         </li>
-      </ul><a class="scroll_prompt" href="#sec-start"></a>
+      </ul><a class="scroll_prompt fa fa-angle-down fa-3x" href="#sec-start"></a>
     </div>
 <!-- **************************-->
 

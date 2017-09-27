@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Template Name: Team
@@ -13,7 +13,7 @@
  */
 
 
-get_header(); 
+get_header();
 
 ?>
   <div class="banner">
@@ -31,14 +31,14 @@ get_header();
             </article>
           </div>
         </li>
-      </ul><a class="scroll_prompt" href="#sec-start"></a>
+      </ul><a class="scroll_prompt fa fa-angle-down fa-3x" href="#sec-start"></a>
     </div>
-<div class="container">
+<div class="container" id="sec-start">
 <div class="team_wrap"></div>
 <h2 class="heading_style_2">
             PLATFORM TEAM & SUPPORT TEAM
  </h2>
- 
+
 </div>
 <section id="content" role="main">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
