@@ -167,7 +167,7 @@ $(document).ready(function(){
     new WOW().init();
   }
   $('.email_form_field .btn_1').css('font-size', '17px').val($.parseHTML("&#xf054;")[0].data);
-  $(".news_inner_menu").sticky({ topSpacing: 40, className: 'sticky', wrapperClassName: 'news_inner_menu_main' });
+  $(".news_inner_menu").sticky({ topSpacing: 50, className: 'sticky', wrapperClassName: 'news_inner_menu_main' });
   $("ul.pgafu-filter").sticky({ topSpacing: 50, className: 'sticky', wrapperClassName: 'news_inner_menu_main' });
   $(".about .inner1").hover(function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/img1.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/cart_icon.png) no-repeat center center #fff')});
   $(".about .inner2").hover(function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/img2.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/cart_icon.png) no-repeat center center #fff')});
