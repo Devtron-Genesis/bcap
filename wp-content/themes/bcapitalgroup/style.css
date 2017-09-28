@@ -263,7 +263,7 @@ p.location {
   right: -19px;
 }
 .abt_boxes .inner:last-of-type {
-  margin-left: 250px;
+  /*margin-left: 250px;*/
 }
 .stage_wrap .row:last-of-type .inner {
   padding-top: 39px;
@@ -309,4 +309,14 @@ img.attachment-large.size-large.wp-post-image {
   margin-bottom: 9px!important;
   margin-right: -21px;
   width: 34.4%;
+}
+div#pgafu-post-filtr-1 {
+  padding: 0px;
+  position: relative;
+  margin-top: 53px;
+  margin-right: 4%;
+  margin-left: 6%;
+}
+.page-id-8 .fa-angle-down, .page-id-16 .fa-angle-down, .page-id-27 .fa-angle-down, .page-id-30 .fa-angle-down, .page-id-33 .fa-angle-down {
+  margin-bottom: 36px;
 }
