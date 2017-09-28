@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Template Name: Home
@@ -13,7 +13,7 @@
  */
 
 
-get_header(); 
+get_header();
 
 ?>
   <div class="banner">
@@ -201,7 +201,7 @@ get_header();
         </div>
       </div>
     </div>
-    
+
 
 
 

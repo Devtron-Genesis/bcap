@@ -94,7 +94,7 @@
       </div>
       <div class="col-sm-4">
         <div class="footer-social">
-          <a href="javascript:;"><i aria-hidden="true" class="fa fa-facebook"></i></a> <a href="javascript:;"><i aria-hidden="true" class="fa fa-twitter"></i></a> <a href="javascript:;"><i aria-hidden="true" class="fa fa-linkedin"></i></a>
+          <a href="javascript:;"><i aria-hidden="true" class="fa fa-facebook"></i></a> <a href="javascript:;"><i aria-hidden="true" class="fa fa-twitter"></i></a> <a href="javascript:;"><i aria-hidden="true" class="fa fa-linkedin"></i></a><a href="javascript:;"><i class="fa fa-medium" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>

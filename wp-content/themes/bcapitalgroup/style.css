@@ -1,3 +1,12 @@
+body {
+  /*font-family: 'Avenir';*/
+  font-family: ‘Lato’, sans-serif;
+  font-weight: bold;
+  padding-top: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
 .services_thumb_wrap .inner .overlay:hover {
   /*text-align: center;*/
 }
@@ -319,4 +328,17 @@ div#pgafu-post-filtr-1 {
 }
 .page-id-8 .fa-angle-down, .page-id-16 .fa-angle-down, .page-id-27 .fa-angle-down, .page-id-30 .fa-angle-down, .page-id-33 .fa-angle-down {
   margin-bottom: 36px;
+}
+.mission_wrap p {
+  font-weight: normal;
+}
+p {
+  font-weight: normal;
+}
+header.header_1.sticky.head-shrink {
+  z-index: 99999;
+  background: #fff;
+}
+.values_wrap .inner_nav ul li {
+  margin-bottom: 13px;
 }
