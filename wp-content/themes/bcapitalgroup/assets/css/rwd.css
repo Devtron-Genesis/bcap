@@ -261,7 +261,7 @@
     margin-right: 0px;
   }
   .portfolio_top_wrap h5 {
-    margin-top: 67%
+    margin-top: 47%
   }
   .portfolio_top_wrap p {
     margin-bottom: 67%
@@ -343,14 +343,14 @@
     height: 493px;
   }
   .page-id-16 .banner ul li .caption {
-    top: 24%
+    /*top: 24%*/
   }
   .page-id-16 a.scroll_prompt.fa.fa-angle-down.fa-3x {
-    margin-bottom: 160px;
+    margin-bottom: 100px;
   }
   .mission_wrap {
-    margin-top: 308px;
-    margin-bottom: 279px;
+    margin-top: 133px;
+    margin-bottom: 133px;
   }
   div#pgafu-post-filtr-1 {
     margin-top: 19%;
@@ -380,20 +380,42 @@
     margin-left: 15px;
     margin-right: 15px;
   }
+   div#sec-start {
+    margin-top: 23%;
+  }
+  div#undefined-sticky-wrapper {
+    display: none;
+  }
 }
 /*TEST */
 @media only screen and (min-width: 300px) and (max-width:350px) {
   .services_thumb_wrap .inner .overlay p {
     line-height: 1.3;
   }
+  .blog_sec_wrap.owl-carousel .owl-controls .owl-nav .owl-next {
+    position: relative;
+    left: 47%;
+    top: -96px;
+  }
 }
-@media only screen and (min-width: 350px) and (max-width:400px) {
+@media only screen and (min-width: 351px) and (max-width:400px) {
   .overlay h3 {
     margin-top: 30px;
+  }
+  .blog_sec_wrap.owl-carousel .owl-controls .owl-nav .owl-next {
+    position: relative;
+    left: 47%;
+    top: -96px;
   }
 }
 @media only screen and (min-width: 401px) and (max-width:450px) {
   .overlay h3 {
     margin-top: 53px;
   }
+  .blog_sec_wrap.owl-carousel .owl-controls .owl-nav .owl-next {
+    position: relative;
+    left: 47%;
+    top: -96px;
+  }
+
 }
