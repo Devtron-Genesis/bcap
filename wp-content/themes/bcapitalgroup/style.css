@@ -289,9 +289,7 @@ p.location {
 .team_wrap {
   margin-top: 93px;
 }
-.testimonial_slider {
-  padding: 111px 100px 127px 100px
-}
+
 .BCGlogo {
   margin-bottom: 30px;
 }
@@ -304,20 +302,12 @@ h2.tlp-member-title {
 img.attachment-large.size-large.wp-post-image {
   margin-left: 23px;
 }
-.tlp-team.container {
-  padding-left: 6px;
-  padding-right: 6px;
-}
+
 .heading_style_2 {
   padding-top: 34px;
 }
 .team_wrap_1 {
     margin-top: 75px;
-}
-.tlp-team .tlp-equal-height {
-  margin-bottom: 9px!important;
-  margin-right: -21px;
-  width: 34.4%;
 }
 div#pgafu-post-filtr-1 {
   padding: 0px;
@@ -341,4 +331,14 @@ header.header_1.sticky.head-shrink {
 }
 .values_wrap .inner_nav ul li {
   margin-bottom: 13px;
+}
+.mission_wrap {
+  margin-top: 206px;
+  margin-bottom: 276px;
+}
+.responsive-menu-open button#responsive-menu-button .responsive-menu-box {
+  display: none;
+}
+div#responsive-menu-container {
+  z-index: 99999;
 }
