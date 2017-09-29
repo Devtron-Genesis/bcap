@@ -119,7 +119,7 @@ header.header_1.container {
   display: none;
 }
 #post-16 .banner {
-  margin-bottom: -140px;
+  /*margin-bottom: -140px;*/
 }
 
 /*HM*/
@@ -341,4 +341,16 @@ header.header_1.sticky.head-shrink {
 }
 div#responsive-menu-container {
   z-index: 99999;
+}
+.responsive-menu-inner, .responsive-menu-inner::before, .responsive-menu-inner::after {
+  background-color: #fff;
+  width: 25px!important;
+  height: 4px!important;
+}
+header.header_1.sticky .sf-menu {
+  /*margin: 13px 0px;*/
+}
+.page-id-37 .responsive-menu-inner, .page-id-37 .responsive-menu-inner::before, .page-id-37 .responsive-menu-inner::after,
+.single-team .responsive-menu-inner, .single-team .responsive-menu-inner::before, .single-team .responsive-menu-inner::after {
+  background-color: #000!important;
 }

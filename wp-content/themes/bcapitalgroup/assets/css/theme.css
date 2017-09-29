@@ -1379,7 +1379,7 @@ footer.footer_1 .footer-social a:hover {
   }
   .abt_boxes .inner {
     /*width: auto !important;*/
-    height: auto !important;
+    /*height: auto !important;*/
   }
   .abt_boxes .inner:last-of-type {
     margin-bottom: 30px;
