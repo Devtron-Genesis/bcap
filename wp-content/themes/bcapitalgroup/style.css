@@ -247,7 +247,7 @@ p.location {
 .tpl-social a {
     float: left;
     width: 100%;
-    margin-left: 55px;
+    margin-left: 7px;
     margin-top: 20px;
     display: inline-block;
     width: 37px;
@@ -353,4 +353,7 @@ header.header_1.sticky .sf-menu {
 .page-id-37 .responsive-menu-inner, .page-id-37 .responsive-menu-inner::before, .page-id-37 .responsive-menu-inner::after,
 .single-team .responsive-menu-inner, .single-team .responsive-menu-inner::before, .single-team .responsive-menu-inner::after {
   background-color: #000!important;
+}
+#responsive-menu-container #responsive-menu li.responsive-menu-item a:hover {
+  background: #65ba84!important;
 }

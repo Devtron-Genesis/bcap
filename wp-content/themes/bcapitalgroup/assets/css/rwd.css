@@ -287,13 +287,13 @@
     padding: 2% 4%;
   }
   .tpl-social {
-    position: relative;
+    position: inherit;
     float: right;
     top: -62px;
     right: 31px;
     z-index: 1;
   }
-  h2.tlp-member-title, .tlp-position, p.location {
+  .single-team h2.tlp-member-title, .tlp-position, p.location {
     position: relative;
     top: -375px;
   }

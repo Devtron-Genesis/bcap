@@ -175,3 +175,4 @@ $(document).ready(function(){
   $(".about .inner4").hover(function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/img4.png) no-repeat center center #fff')}, function(){$('.cart_icon_wrap').css('background', 'url(/wp-content/uploads/2017/09/cart_icon.png) no-repeat center center #fff')});
 });
 
+
