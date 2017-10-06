@@ -1,3 +1,6 @@
+var y = $(window).height();
+$('.home .banner video').css('height', y + 33);
+$('.home .banner').css('height', y + 33);
 $(function() {
   $("li:first-child").addClass("first");
   $("li:last-child").addClass("last");

@@ -77,7 +77,7 @@ body {
   color: #fff;
 }
 .home .banner {
-  top: -165px;
+  /*top: -165px;*/
 }
 footer.footer_1 .footer-social a:hover {
   border-color: #212121;
@@ -356,4 +356,10 @@ header.header_1.sticky .sf-menu {
 }
 #responsive-menu-container #responsive-menu li.responsive-menu-item a:hover {
   background: #65ba84!important;
+}
+.banner {
+  background-color: transparent;
+}
+body.home .banner ul li:after {
+  background-color: transparent;
 }
