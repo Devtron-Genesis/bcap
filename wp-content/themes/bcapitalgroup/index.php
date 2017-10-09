@@ -28,10 +28,10 @@ get_header();
           <div class="caption fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
             <article>
               <h1>
-                INNOVATION WITHOUT BORDERS
+                INNOVATION WITHOUT BOUNDARIES
               </h1>
               <h3>
-                TRANSFORMING INDUSTRIES AND IMPROVING LIVES
+                TRANSFORMING INDUSTRIES AND IMPROVING LIVES BY SOLVING THE WORLDS'S TOUGHEST PROBLEM
               </h3>
             </article>
           </div>
@@ -42,10 +42,10 @@ get_header();
       <div class="container">
         <div class="mission_wrap">
           <h5>
-            OUR VISION
+            MISSION / PHILOSOPHY
           </h5>
           <p>
-            B Capital provides a launch pad for the world’s most pioneering entrepreneurs on which they can develop world-changing B2B and B2B2C technology that will transform industries and improve lives across the globe
+            We provide a launchpad for the most pioneering entrepreneurs on which they can develop world-changing technology that will transform industries and improve lives across the globe
           </p>
         </div>
       </div>
@@ -64,7 +64,7 @@ get_header();
                   WE THINK, OPERATE & INVEST GLOBALLY
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+                  Technology and innovation has gone global and we believe there is always a better way forward. Our foundations lie in searching out the most pioneering entrepreneurs and technologies from all corners of the world that have the power to positively transform industries and people’s lives.
                 </p>
               </div></a>
             </div>
@@ -73,15 +73,15 @@ get_header();
                 <figure>
                   <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/images/services_thumb_2.jpg">
                   <h3>
-                    WE’RE MORE THAN JUST INVESTORS
+                    WE’RE MORE THAN INVESTORS
                   </h3>
                 </figure>
                 <div class="overlay">
                   <h3>
-                    WE’RE MORE THAN JUST INVESTORS
+                    WE’RE MORE THAN INVESTORS
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+                    Through our first-hand experiences as entrepreneurs, corporate partners, and venture capitalists, we’ve developed unique perspectives and skill sets to help founders find the best path to expand their businesses.
                   </p>
                 </div></a>
               </div>
@@ -100,7 +100,7 @@ get_header();
                       WE ARE BETTER TOGETHER
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+                      We actively break down walls to create collaborative opportunities between our team, our portfolio companies, and our partners to accelerate learning and the path to growth and success.
                     </p>
                   </div></a>
                 </div>
@@ -117,7 +117,7 @@ get_header();
                         BRIDGING THE GAP
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+                        Through our global mindset, our collaborative partnerships, our company-building processes, and our differentiated perspectives, we bridge the gap between startups and corporates, creating win-win scenarios by pairing pioneering technology leaders with global corporates.
                       </p>
                     </div></a>
                   </div>

@@ -253,7 +253,7 @@ body.home .banner ul li:after {
 .banner article p {
   color: #fff;
   margin-bottom: 0px;
-  width: 57%;
+  /*width: 57%;*/
 }
 .banner article h3 {
   color: #fff;

@@ -23,10 +23,10 @@ get_header();
           <div class="caption">
             <article>
               <h1>
-                Team
+                Global Reach and Expertise
               </h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                Our people are your biggest asset
               </p>
             </article>
           </div>
@@ -37,6 +37,26 @@ get_header();
 <div class="team_wrap"></div>
 <h2 class="heading_style_2">
             PLATFORM TEAM & SUPPORT TEAM
+ </h2>
+
+</div>
+<section id="content" role="main">
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<section class="entry-content">
+<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+<?php the_content(); ?>
+<div class="entry-links"><?php wp_link_pages(); ?></div>
+</section>
+</article>
+<?php //if ( ! post_password_required() ) comments_template( '', true ); ?>
+<?php endwhile; endif; ?>
+</section>
+
+<div class="container" id="sec-start">
+<div class="team_wrap"></div>
+<h2 class="heading_style_2">
+            BCAP GROUP INVESTORS
  </h2>
 
 </div>
