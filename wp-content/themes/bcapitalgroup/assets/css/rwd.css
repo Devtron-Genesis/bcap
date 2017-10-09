@@ -412,6 +412,7 @@
     top: -62px;
     right: 31px;
     z-index: 1;
+    width: 35px !important;
   }
   .single-team h2.tlp-member-title, .tlp-position, p.location {
     position: relative;
