@@ -247,7 +247,7 @@ p.location {
 .tpl-social a {
     float: left;
     width: 100%;
-    margin-left: 7px;
+    margin-left: 0px;
     margin-top: 20px;
     display: inline-block;
     width: 37px;
@@ -292,6 +292,7 @@ p.location {
 
 .BCGlogo {
   margin-bottom: 30px;
+  margin-right: 10px;
 }
 span.pgafu-user-img, span.pgafu-time img {
   display: none!important;
@@ -300,7 +301,7 @@ h2.tlp-member-title {
   margin-top: -14px;
 }
 img.attachment-large.size-large.wp-post-image {
-  margin-left: 23px;
+  /*margin-left: 23px;*/
 }
 
 .heading_style_2 {
@@ -362,4 +363,10 @@ header.header_1.sticky .sf-menu {
 }
 body.home .banner ul li:after {
   background-color: transparent;
+}
+.single-team-area:hover .tlp-content h3 a {
+  color: #006a4e!important;
+}
+.tpl-social {
+  margin: 0 auto !important;
 }

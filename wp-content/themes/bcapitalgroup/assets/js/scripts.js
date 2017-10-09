@@ -1,6 +1,7 @@
 var y = $(window).height();
 $('.home .banner video').css('height', y + 33);
 $('.home .banner').css('height', y + 33);
+
 $(function() {
   $("li:first-child").addClass("first");
   $("li:last-child").addClass("last");
@@ -159,6 +160,12 @@ $(document).on("scroll", function() {
 });
 
 $(document).ready(function(){
+    var img_width = $(".tlp-member-feature-img img").width();
+  $('.tpl-social').css('width', img_width );
+  })
+
+  $(window).resize(function(){
+
   $('.porfolio_wrap a').parent('p').remove();
   $('.porfolio_wrap a > p').remove();
   $('.connect').closest('#wrapper').find('.header_1').addClass('header_1 with_out_banner');
