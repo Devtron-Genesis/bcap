@@ -453,7 +453,7 @@ div.sec {
 .values_wrap .inner_details ul li:after {}
 div.sec.sec2, div.sec.sec2-mob {
   background-color: #1c1c1c;
-  background:url(../images/abt_tab_bg.jpg) no-repeat #006a4e;
+  background: url(../images/sec2_bg.jpg) no-repeat #1c1c1c;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
