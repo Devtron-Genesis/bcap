@@ -368,14 +368,14 @@ h4 small, .h4 small, h5 small, .h5 small, h6 small, .h6 small, h4 .small, .h4 .s
   font-size: 75%;
 }
 h1, .h1 {
-  font-size: 36px;
+  font-size: 26px;
   font-family: 'avenirheavy';
 }
 h2, .h2 {
   font-size: 30px;
 }
 h3, .h3 {
-  font-size: 24px;
+  font-size: 20px;
 }
 h4, .h4 {
   font-size: 18px;
@@ -387,7 +387,7 @@ h6, .h6 {
   font-size: 12px;
 }
 p {
-  margin: 0 0 15px;
+  margin: 0 0 13px;
 }
 .lead {
   margin-bottom: 20px;
@@ -7287,6 +7287,7 @@ button.close {
 }
 .BCGlogo {
   float: right;
+  padding bottom: 18px;
 }
 .services_thumb_wrap .inner .overlay:hover {
   text-align: center;

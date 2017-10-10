@@ -157,9 +157,17 @@ $(document).on("scroll", function() {
     $(".logo").removeClass("logo-shrink");
   }
 });
+
+$(document).ready(function(){
+
+  //adding overlay div on team page
+  $('.team-member .single-team-area').children('a').append('<div class="overlay-team"></div>');
+  $('.team-member .single-team-area').children('a').attr('title',' ');
+  //match team image width
     var img_width = $(".tlp-member-feature-img img").width();
     $('.tpl-social').css('width', img_width );
-$(document).ready(function(){
+    $('.single-team-area .overlay-team').css('width', img_width);
+
   $('.porfolio_wrap a').parent('p').remove();
   $('.porfolio_wrap a > p').remove();
   $('.connect').closest('#wrapper').find('.header_1').addClass('header_1 with_out_banner');
