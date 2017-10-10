@@ -11,7 +11,7 @@ if(!class_exists('TLPPortfolioReSizer')) {
         static private $instance = null;
 
         /**
-         * Should an RtTpgException be thrown on error?
+         * Should an TLPPortfolioException be thrown on error?
          * If false (default), then the error will just be logged.
          */
         public $throwOnError = false;
@@ -39,11 +39,11 @@ if(!class_exists('TLPPortfolioReSizer')) {
             try {
                 // Validate inputs.
                 if (!$url)
-                    throw new RtTpgException('$url parameter is required');
+                    throw new TLPPortfolioException('$url parameter is required');
                 if (!$width)
-                    throw new RtTpgException('$width parameter is required');
+                    throw new TLPPortfolioException('$width parameter is required');
                 if (!$height)
-                    throw new RtTpgException('$height parameter is required');
+                    throw new TLPPortfolioException('$height parameter is required');
 
                 // Caipt'n, ready to hook.
                 if ( true === $upscale ) add_filter( 'image_resize_dimensions', array($this, 'aq_upscale'), 10, 6 );
@@ -72,7 +72,7 @@ if(!class_exists('TLPPortfolioReSizer')) {
 
                 // Check if $img_url is local.
                 if ( false === strpos( $url, $upload_url ) )
-                    throw new RtTpgException('Image must be local: ' . $url);
+                    throw new TLPPortfolioException('Image must be local: ' . $url);
 
                 // Define path of image.
                 $rel_path = str_replace( $upload_url, '', $url );
@@ -80,7 +80,7 @@ if(!class_exists('TLPPortfolioReSizer')) {
 
                 // Check if img path exists, and is an image indeed.
                 if ( ! file_exists( $img_path ) or ! getimagesize( $img_path ) )
-                    throw new RtTpgException('Image file does not exist (or is not an image): ' . $img_path);
+                    throw new TLPPortfolioException('Image file does not exist (or is not an image): ' . $img_path);
 
                 // Get image info.
                 $info = pathinfo( $img_path );
@@ -105,7 +105,7 @@ if(!class_exists('TLPPortfolioReSizer')) {
 
                     if ( ! $dims || ( true == $crop && false == $upscale && ( $dst_w < $width || $dst_h < $height ) ) ) {
                         // Can't resize, so return false saying that the action to do could not be processed as planned.
-                        throw new RtTpgException('Unable to resize image because image_resize_dimensions() failed');
+                        throw new TLPPortfolioException('Unable to resize image because image_resize_dimensions() failed');
                     }
                     // Else check if cache exists.
                     elseif ( file_exists( $destfilename ) && getimagesize( $destfilename ) ) {
@@ -117,7 +117,7 @@ if(!class_exists('TLPPortfolioReSizer')) {
                         $editor = wp_get_image_editor( $img_path );
 
                         if ( is_wp_error( $editor ) || is_wp_error( $editor->resize( $width, $height, $crop ) ) ) {
-                            throw new RtTpgException('Unable to get WP_Image_Editor: ' .
+                            throw new TLPPortfolioException('Unable to get WP_Image_Editor: ' .
                                 $editor->get_error_message() . ' (is GD or ImageMagick installed?)');
                         }
 
@@ -127,7 +127,7 @@ if(!class_exists('TLPPortfolioReSizer')) {
                             $resized_rel_path = str_replace( $upload_dir, '', $resized_file['path'] );
                             $img_url = $upload_url . $resized_rel_path;
                         } else {
-                            throw new RtTpgException('Unable to save resized image file: ' . $editor->get_error_message());
+                            throw new TLPPortfolioException('Unable to save resized image file: ' . $editor->get_error_message());
                         }
 
                     }
@@ -151,7 +151,7 @@ if(!class_exists('TLPPortfolioReSizer')) {
 
                 return $image;
             }
-            catch (RtTpgException $ex) {
+            catch (TLPPortfolioException $ex) {
                 error_log('rtTPGReSizer.process() error: ' . $ex->getMessage());
 
                 if ($this->throwOnError) {

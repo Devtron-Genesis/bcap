@@ -28,17 +28,17 @@ if(!class_exists('PortfolioPostTypeRegistrations')):
 		protected function register_post_type() {
 			global $TLPportfolio;
 			$labels = array(
-				'name'               => __( 'Invester', 'tlp-portfolio' ),
-				'singular_name'      => __( 'Invester', 'tlp-portfolio' ),
-				'add_new'            => __( 'Add Invester', 'tlp-portfolio' ),
-				'all_items'          => __( 'All Invester', 'tlp-portfolio'),
-				'add_new_item'       => __( 'Add Invester', 'tlp-portfolio' ),
-				'edit_item'          => __( 'Edit Invester', 'tlp-portfolio' ),
-				'new_item'           => __( 'New Invester', 'tlp-portfolio' ),
-				'view_item'          => __( 'View Invester', 'tlp-portfolio' ),
-				'search_items'       => __( 'Search Invester', 'tlp-portfolio' ),
-				'not_found'          => __( 'No Invester found', 'tlp-portfolio' ),
-				'not_found_in_trash' => __( 'No Invester in the trash', 'tlp-portfolio' ),
+				'name'               => __( 'Portfolio', 'tlp-portfolio' ),
+				'singular_name'      => __( 'Portfolio', 'tlp-portfolio' ),
+				'add_new'            => __( 'Add Portfolio', 'tlp-portfolio' ),
+				'all_items'          => __( 'All Portfolios', 'tlp-portfolio'),
+				'add_new_item'       => __( 'Add Portfolio', 'tlp-portfolio' ),
+				'edit_item'          => __( 'Edit Portfolio', 'tlp-portfolio' ),
+				'new_item'           => __( 'New Portfolio', 'tlp-portfolio' ),
+				'view_item'          => __( 'View Portfolio', 'tlp-portfolio' ),
+				'search_items'       => __( 'Search Portfolio', 'tlp-portfolio' ),
+				'not_found'          => __( 'No Portfolios found', 'tlp-portfolio' ),
+				'not_found_in_trash' => __( 'No Portfolios in the trash', 'tlp-portfolio' ),
 			);
 			$supports = array(
 				'title',

@@ -8,7 +8,7 @@ if ( ! class_exists( 'TLPportfolio' ) ):
 		function __construct() {
 			$this->options = array(
 				'settings'            => 'tpl_portfolio_settings',
-				'version'             => '2.1',
+				'version'             => '2.3',
 				'tlp-portfolio-thumb' => 'tlp-portfolio-thumb',
 				'installed_version'   => 'tlp_portfolio_installed_version'
 			);

@@ -4,7 +4,7 @@ Donate link:
 Tags: portfolio, portfolio plugin, wordpress portfolio plugin, filterable portfolio, best portfolio, best wp portfolio, gallery, portfolio gallery, photo gallery, image display, creative portfolio, portfolio display, portfolio slider, responsive portfolio, portfolio showcase.
 Requires at least: 4
 Tested up to: 4.8
-Stable tag: 2.1
+Stable tag: 2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,7 +56,7 @@ It is HTML5 & CSS3 base coding. Display your portfolio items/ Gallery with Grid 
 * Fully Responsive
 * 4 Different layouts included
 * Ordering option included like orderby="title" or orderby="date" and order="ASC" or order="DESC"
-* Primary Color control 
+* Primary Color control
 * Permalink Control
 * Custom meta fields , Single Template
 * Image size settings
@@ -179,11 +179,16 @@ For any bug or suggestion please mail us: support@radiustheme.com
 
 == Changelog ==
 
+= 2.3 =
+* Fixed Language issue
+
+= 2.2 =
+* Posts per page ( Fixed )
+
 = 2.1 =
 * Dynamic shortcode generator
 * Improve Image resize option
 * Title styling (Color, Size, Weight)
-
 
 = 2.0 =
 * Add category filter

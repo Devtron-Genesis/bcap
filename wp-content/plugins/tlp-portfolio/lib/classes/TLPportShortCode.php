@@ -25,7 +25,7 @@ if ( ! class_exists( 'TLPportShortCode' ) ):
 			$atts = shortcode_atts( array(
 				'orderby'           => 'date',
 				'order'             => 'DESC',
-				'number'            => 4,
+				'number'            => -1,
 				'col'               => 3,
 				'layout'            => 1,
 				'cat'               => null,
@@ -90,7 +90,7 @@ if ( ! class_exists( 'TLPportShortCode' ) ):
 						'hide_empty' => false,
 					) );
 					$html .= '<div id="tlp-portfolio-isotope-button" class="button-group filter-button-group option-set">
-											<button data-filter="*" class="selected">Show all</button>';
+											<button data-filter="*" class="selected">'.__("Show all", "tlp-portfolio").'</button>';
 					if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) {
 						foreach ( $terms as $term ) {
 							$html .= "<button data-filter='.{$term->slug}'>" . $term->name . "</button>";
