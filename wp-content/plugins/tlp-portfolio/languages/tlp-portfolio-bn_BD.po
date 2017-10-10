@@ -1,0 +1,365 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Portfolio\n"
+"POT-Creation-Date: 2016-10-24 12:31+0600\n"
+"PO-Revision-Date: 2016-10-24 12:32+0600\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: tlp-portfolio.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: bn_BD\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: lib/classes/PortfolioPostMeta.php:32
+msgid "Portfolio Details"
+msgstr "পোর্টফোলিও বিস্তারিত"
+
+#: lib/classes/PortfolioPostMeta.php:49
+msgid "Short Description"
+msgstr "সংক্ষিপ্ত বর্ণনা"
+
+#: lib/classes/PortfolioPostMeta.php:56
+msgid "Add some short description for hint view"
+msgstr "কিছু সংক্ষিপ্ত জীবনী যোগ"
+
+#: lib/classes/PortfolioPostMeta.php:63
+msgid "Project Url"
+msgstr "প্রকল্প লিংক"
+
+#: lib/classes/PortfolioPostMeta.php:75
+msgid "Tools Used"
+msgstr ""
+
+#: lib/classes/PortfolioPostMeta.php:82
+msgid "Add the tools which are used in this project"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeAdmin.php:96
+msgid "Image"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: lib/classes/PortfolioPostTypeRegistrations.php:31
+#: lib/classes/PortfolioPostTypeRegistrations.php:32
+msgid "Portfolio"
+msgstr "পোর্টফোলিও"
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:33
+#: lib/classes/PortfolioPostTypeRegistrations.php:35
+msgid "Add Portfolio"
+msgstr "পোর্টফোলিও  যোগ করুন"
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:34
+msgid "All Portfolios"
+msgstr "সব পোর্টফোলিও"
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:36
+msgid "Edit Portfolio"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:37
+msgid "New Portfolio"
+msgstr "নতুন পোর্টফোলিও"
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:38
+msgid "View Portfolio"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:39
+msgid "Search Portfolio"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:40
+msgid "No Portfolios found"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:41
+msgid "No Portfolios in the trash"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:79
+#: lib/classes/PortfolioPostTypeRegistrations.php:81
+msgid "Tags"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:80
+msgid "Tag"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:82
+msgid "Edit Tag"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:83
+msgid "Update Tag"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:84
+msgid "Add New Tag"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:85
+msgid "New Tag Name"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:86
+#: lib/classes/PortfolioPostTypeRegistrations.php:87
+msgid "Parent Tag"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:88
+msgid "All Tags"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:89
+msgid "Search Tags"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:90
+msgid "Popular Tags"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:91
+msgid "Separate Tags with commas"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:92
+msgid "Add or remove Tags"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:93
+msgid "Choose from the most used Tags"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:94
+msgid "No Tags found."
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:118
+#: lib/classes/PortfolioPostTypeRegistrations.php:120
+msgid "Categories"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:119
+msgid "Category"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:121
+msgid "Edit Category"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:122
+msgid "Update Category"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:123
+msgid "Add New Category"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:124
+msgid "New Category Name"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:125
+msgid "Parent Category"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:126
+msgid "Parent Category:"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:127
+msgid "All Categories"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:128
+msgid "Search Categories"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:129
+msgid "Popular Categories"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:130
+msgid "Separate categories with commas"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:131
+msgid "Add or remove categories"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:132
+msgid "Choose from the most used  categories"
+msgstr ""
+
+#: lib/classes/PortfolioPostTypeRegistrations.php:133
+msgid "No categories found."
+msgstr ""
+
+#: lib/classes/TLPportSettings.php:48
+msgid "Settings successfully updated"
+msgstr ""
+
+#: lib/classes/TLPportSettings.php:53
+msgid "Security Error!!!"
+msgstr ""
+
+#: lib/classes/TLPportSettings.php:65 lib/views/settings.php:8
+msgid "TLP Portfolio Settings"
+msgstr ""
+
+#: lib/classes/TLPportSettings.php:65
+msgid "Settings"
+msgstr ""
+
+#: lib/classes/TLPportSupport.php:28
+msgid "Auto Play"
+msgstr ""
+
+#: lib/classes/TLPportSupport.php:29
+msgid "Navigation"
+msgstr ""
+
+#: lib/classes/TLPportSupport.php:30
+msgid "Pagination"
+msgstr ""
+
+#: lib/classes/TLPportSupport.php:31
+msgid "Stop Hover"
+msgstr ""
+
+#: lib/classes/TLPportSupport.php:32
+msgid "Responsive"
+msgstr ""
+
+#: lib/classes/TLPportSupport.php:33
+msgid "Auto Height"
+msgstr ""
+
+#: lib/classes/TLPportSupport.php:34
+msgid "Lazy Load"
+msgstr ""
+
+#: lib/views/settings.php:13
+msgid "General settings"
+msgstr ""
+
+#: lib/views/settings.php:18
+msgid "Primary Color"
+msgstr ""
+
+#: lib/views/settings.php:24
+msgid "Image Size"
+msgstr ""
+
+#: lib/views/settings.php:25
+msgid "(Width * Height)"
+msgstr ""
+
+#: lib/views/settings.php:28
+msgid "Slug"
+msgstr ""
+
+#: lib/views/settings.php:31
+msgid "Slug configuration"
+msgstr ""
+
+#: lib/views/settings.php:36
+msgid "Link To Detail Page"
+msgstr ""
+
+#: lib/views/settings.php:55
+msgid "Custom Css "
+msgstr ""
+
+#: lib/views/settings.php:62
+msgid "Save Changes"
+msgstr ""
+
+#: lib/views/settings.php:98
+msgid "Short Code"
+msgstr ""
+
+#: lib/views/settings.php:100
+msgid "col = The number of column you want to create (1,2,3,4)"
+msgstr ""
+
+#: lib/views/settings.php:101
+msgid "number = The number of the portfolio, you want to display"
+msgstr ""
+
+#: lib/views/settings.php:102
+msgid "orderby = Orderby (title , date, menu_order)"
+msgstr ""
+
+#: lib/views/settings.php:103
+msgid "layout = Layout (1,2,3,isotope)"
+msgstr ""
+
+#: lib/views/settings.php:104
+msgid "order = ASC, DESC"
+msgstr ""
+
+#: lib/views/settings.php:105
+msgid "Demo"
+msgstr ""
+
+#: lib/views/settings.php:105
+msgid "Documentation"
+msgstr ""
+
+#: lib/widgets/TLPportOwlCarosule.php:18
+msgid "Display the portfolio as carousel."
+msgstr ""
+
+#: lib/widgets/TLPportOwlCarosule.php:19
+msgid "TPL Portfolio"
+msgstr ""
+
+#: lib/widgets/TLPportOwlCarosule.php:107
+msgid "No post found"
+msgstr ""
+
+#: lib/widgets/TLPportOwlCarosule.php:192
+msgid "Title:"
+msgstr ""
+
+#: lib/widgets/TLPportOwlCarosule.php:195
+msgid "Number of item per slide:"
+msgstr ""
+
+#: lib/widgets/TLPportOwlCarosule.php:198
+msgid "Total Number of item:"
+msgstr ""
+
+#: lib/widgets/TLPportOwlCarosule.php:201
+msgid "Slide Speed:"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://demo.radiustheme.com/wordpress/plugins/tlp-portfolio/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Fully Responsive and Mobile Friendly Portfolio display plugin for wordpress "
+"with Grid and Isotope View."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "RadiusTheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://radiustheme.com"
+msgstr ""
