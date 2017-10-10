@@ -1,0 +1,2 @@
+[22-Sep-2017 09:42:09 UTC] WordPress database error Unknown column 'cg_' in 'field list' for query SELECT cg_
+[30-Sep-2017 08:07:38 UTC] UpdraftPlus: Warning: settings for googledrive are empty. A dummy field is usually needed so that something is saved.
