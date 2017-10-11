@@ -14,7 +14,7 @@ $blogposts = get_posts(array(
   'posts_per_page' => -1,
   'category' => 15,
   'orderby' => 'date',
-  'order' => 'DESC',
+  'order' => 'ASC',
   )
 );
 ?>
