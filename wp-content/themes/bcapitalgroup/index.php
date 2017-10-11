@@ -1,278 +1,61 @@
 <?php
 /**
-* The main template file
-*
-* This is the most generic template file in a WordPress theme
-* and one of the two required files for a theme (the other being style.css).
-* It is used to display a page when nothing more specific matches a query.
-* e.g., it puts together the home page when no home.php file exists.
-*
-* Learn more: {@link https://codex.wordpress.org/Template_Hierarchy}
-*
-* @package WordPress
-* @subpackage B Capital Group
-* @since B Capital Group
-*/
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * e.g., it puts together the home page when no home.php file exists.
+ *
+ * Learn more: {@link https://codex.wordpress.org/Template_Hierarchy}
+ *
+ * @package WordPress
+ * @subpackage B Capital Group
+ * @since B Capital Group 1.0
+ */
 
-get_header();
+get_header(); ?>
 
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
 
-?>
-<div class="banner">
-  <ul>
-    <li>
-      <video  autoplay loop="loop" id="video">
-        <source src="<?php echo get_template_directory_uri(); ?>/assets/video/1080p.mp4" type="video/mp4">
-          <source src="<?php echo get_template_directory_uri(); ?>/assets/video/1080p.ogg" type="video/ogg">
-          </video>
-          <div class="caption fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
-            <article>
-              <h1>
-                INNOVATION WITHOUT BOUNDARIES
-              </h1>
-              <h3>
-                TRANSFORMING INDUSTRIES AND IMPROVING LIVES BY SOLVING THE WORLDS'S TOUGHEST PROBLEM
-              </h3>
-            </article>
-          </div>
-        </li>
-      </ul><a class="scroll_prompt fa fa-angle-down fa-3x" href="#sec-start"></a>
-    </div>
-    <div class="sec" id="sec-start">
-      <div class="container">
-        <div class="mission_wrap">
-          <h5>
-            MISSION / PHILOSOPHY
-          </h5>
-          <p>
-            We provide a launchpad for the most pioneering entrepreneurs on which they can develop world-changing technology that will transform industries and improve lives across the globe
-          </p>
-        </div>
-      </div>
-      <div class="services_thumb_wrap">
-        <div class="row">
-          <div class="col-sm-6">
-            <a class="inner" href="javasript:;">
-              <figure>
-                <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/images/services_thumb_1.jpg">
-                <h3>
-                  WE THINK, OPERATE & INVEST GLOBALLY
-                </h3>
-              </figure>
-              <div class="overlay">
-                <h3>
-                  WE THINK, OPERATE & INVEST GLOBALLY
-                </h3>
-                <p>
-                  Technology and innovation has gone global and we believe there is always a better way forward. Our foundations lie in searching out the most pioneering entrepreneurs and technologies from all corners of the world that have the power to positively transform industries and people’s lives.
-                </p>
-              </div></a>
-            </div>
-            <div class="col-sm-6">
-              <a class="inner" href="javasript:;">
-                <figure>
-                  <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/images/services_thumb_2.jpg">
-                  <h3>
-                    WE’RE MORE THAN INVESTORS
-                  </h3>
-                </figure>
-                <div class="overlay">
-                  <h3>
-                    WE’RE MORE THAN INVESTORS
-                  </h3>
-                  <p>
-                    Through our first-hand experiences as entrepreneurs, corporate partners, and venture capitalists, we’ve developed unique perspectives and skill sets to help founders find the best path to expand their businesses.
-                  </p>
-                </div></a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <a class="inner" href="javasript:;">
-                  <figure>
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/images/services_thumb_3.jpg">
-                    <h3>
-                      WE ARE BETTER TOGETHER
-                    </h3>
-                  </figure>
-                  <div class="overlay">
-                    <h3>
-                      WE ARE BETTER TOGETHER
-                    </h3>
-                    <p>
-                      We actively break down walls to create collaborative opportunities between our team, our portfolio companies, and our partners to accelerate learning and the path to growth and success.
-                    </p>
-                  </div></a>
-                </div>
-                <div class="col-sm-6">
-                  <a class="inner" href="javasript:;">
-                    <figure>
-                      <img class="img-responsive" src="<?php echo get_template_directory_uri();?>/assets/images/services_thumb_4.jpg">
-                      <h3>
-                        BRIDGING THE GAP
-                      </h3>
-                    </figure>
-                    <div class="overlay">
-                      <h3>
-                        BRIDGING THE GAP
-                      </h3>
-                      <p>
-                        Through our global mindset, our collaborative partnerships, our company-building processes, and our differentiated perspectives, we bridge the gap between startups and corporates, creating win-win scenarios by pairing pioneering technology leaders with global corporates.
-                      </p>
-                    </div></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="sec sec2-mob visible-xs visible-sm">
-              <div class="container">
-                <div class="values_wrap">
-                  <div class="mobile-slider">
-                    <div class="inner">
-                      <h5>
-                        OUR VALUES
-                      </h5>
-                      <h3>Truth</h3>
-                      <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                      </p>
-                    </div>
-                    <div class="inner">
-                      <h5>
-                        OUR VALUES
-                      </h5>
-                      <h3>Trust</h3>
-                      <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                      </p>
-                    </div>
-                    <div class="inner">
-                      <h5>
-                        OUR VALUES
-                      </h5>
-                      <h3>Together</h3>
-                      <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                      </p>
-                    </div>
-                    <div class="inner">
-                      <h5>
-                        OUR VALUES
-                      </h5>
-                      <h3>Humble</h3>
-                      <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                      </p>
-                    </div>
-                    <div class="inner">
-                      <h5>
-                        OUR VALUES
-                      </h5>
-                      <h3>Responsible</h3>
-                      <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                      </p>
-                    </div>
-                    <div class="inner">
-                      <h5>
-                        OUR VALUES
-                      </h5>
-                      <h3>Bold</h3>
-                      <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                      </p>
-                    </div>
-                    <div class="inner">
-                      <h5>
-                        OUR VALUES
-                      </h5>
-                      <h3>Tempor</h3>
-                      <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="sec sec2 visible-md visible-lg">
-              <div class="container">
-                <div class="values_wrap">
-                  <h5>
-                    OUR VALUES
-                  </h5>
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <div class="inner_nav">
-                        <ul>
-                          <li class="active">
-                            <a data-toggle="tab" href="#tab_1" role="tab">Truth</a>
-                          </li>
-                          <li>
-                            <a data-toggle="tab" href="#tab_2" role="tab">Trust</a>
-                          </li>
-                          <li>
-                            <a data-toggle="tab" href="#tab_3" role="tab">Together</a>
-                          </li>
-                          <li>
-                            <a data-toggle="tab" href="#tab_4" role="tab">Humble</a>
-                          </li>
-                          <li>
-                            <a data-toggle="tab" href="#tab_5" role="tab">Responsible</a>
-                          </li>
-                          <li>
-                            <a data-toggle="tab" href="#tab_6" role="tab">Bold</a>
-                          </li>
-                          <li>
-                            <a data-toggle="tab" href="#tab_7" role="tab">Tempor</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col-sm-8">
-                      <div class="inner_details">
-                        <div class="tab-content">
-                          <div class="tab-pane fade in active" id="tab_1" role="tabpanel">
-                            <p>
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                            </p>
-                          </div>
-                          <div class="tab-pane fade" id="tab_2" role="tabpanel">
-                            <p>
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                            </p>
-                          </div>
-                          <div class="tab-pane fade" id="tab_3" role="tabpanel">
-                            <p>
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                            </p>
-                          </div>
-                          <div class="tab-pane fade" id="tab_4" role="tabpanel">
-                            <p>
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                            </p>
-                          </div>
-                          <div class="tab-pane fade" id="tab_5" role="tabpanel">
-                            <p>
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                            </p>
-                          </div>
-                          <div class="tab-pane fade" id="tab_6" role="tabpanel">
-                            <p>
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                            </p>
-                          </div>
-                          <div class="tab-pane fade" id="tab_7" role="tabpanel">
-                            <p>
-                              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est. laborum.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <?php //echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
-            <?php get_footer(); ?>
+    <?php if ( have_posts() ) : ?>
+
+      <?php if ( is_home() && ! is_front_page() ) : ?>
+        <header>
+          <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+        </header>
+      <?php endif; ?>
+
+      <?php
+      // Start the loop.
+      while ( have_posts() ) : the_post();
+
+        /*
+         * Include the Post-Format-specific template for the content.
+         * If you want to override this in a child theme, then include a file
+         * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+         */
+        get_template_part( 'content', get_post_format() );
+
+      // End the loop.
+      endwhile;
+
+      // Previous/next page navigation.
+      the_posts_pagination( array(
+        'prev_text'          => __( 'Previous page', 'twentyfifteen' ),
+        'next_text'          => __( 'Next page', 'twentyfifteen' ),
+        'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentyfifteen' ) . ' </span>',
+      ) );
+
+    // If no content, include the "No posts found" template.
+    else :
+      get_template_part( 'content', 'none' );
+
+    endif;
+    ?>
+
+    </main><!-- .site-main -->
+  </div><!-- .content-area -->
+
+<?php get_footer(); ?>

@@ -250,7 +250,9 @@ add_action( 'wp_head', 'twentyfifteen_javascript_detection', 0 );
  */
 function twentyfifteen_scripts() {
 
-	wp_enqueue_script( 'twentyfifteen-scriptss', get_template_directory_uri() . '/assets/js/jquery.min.js', array( 'jquery' ), '20150332', true );
+	wp_enqueue_script( 'twentyfifteen-jquery', get_template_directory_uri() . '/assets/js/jquery.min.js', array( 'jquery' ), '20150332', true );
+
+	wp_enqueue_script( 'twentyfifteen-ScrollTo', get_template_directory_uri() . '/assets/js/jquery.scrollTo.min.js', array( 'jquery' ), '20150334', true );
 
 	wp_enqueue_script( 'twentyfifteen-wow', get_template_directory_uri() . '/assets/js/wow.min.js', array( 'jquery' ), '20150331', true );
 
@@ -370,3 +372,8 @@ add_filter( 'walker_nav_menu_start_el', 'twentyfifteen_nav_description', 10, 4 )
  * @return string Modified search form HTML.
  */
 
+//disable WordPress sanitization to allow more than just $allowedtags from /wp-includes/kses.php
+remove_filter('pre_user_description', 'wp_filter_kses');
+//add sanitization for WordPress posts
+add_filter( 'pre_user_description', 'wp_filter_post_kses');
+remove_filter('the_content', 'wpautop');

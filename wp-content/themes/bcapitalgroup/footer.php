@@ -9,101 +9,48 @@
 * @since B Capital Group 1.0
 */
 ?>
-
+<?php
+$blogposts = get_posts(array(
+  'posts_per_page' => -1,
+  'category' => 15,
+  'orderby' => 'date',
+  'order' => 'DESC',
+  )
+);
+?>
 </div><!-- .site-content -->
 
 <div class="sec sec3">
   <div class="container">
     <div class="blog_sec_wrap">
+      <?php if($blogposts) {
+        foreach($blogposts as $post):
+        setup_postdata( $post );
+      ?>
       <div class="inner">
         <h4>
-          BLOG TITLE
+          <?php the_title(); ?>
         </h4>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
-      </div>
-      <div class="inner">
-        <h4>
-          BLOG TITLE
-        </h4>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
-      </div>
-      <div class="inner">
-        <h4>
-          BLOG TITLE
-        </h4>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
-      </div>
-      <div class="inner">
-        <h4>
-          BLOG TITLE
-        </h4>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
-      </div>
-      <div class="inner">
-        <h4>
-          BLOG TITLE
-        </h4>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
-      </div>
-      <div class="inner">
-        <h4>
-          BLOG TITLE
-        </h4>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-        </p><a class="link" href="javascript:;">LEARN MORE <i class="fa fa-chevron-right"></i></a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="home_email_sec_wrap">
-  <div class="container">
-    <h2>
-      DATA CAPTURE TITLE
-    </h2>
-    <p>
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-    </p>
-    <div class="email_form_field">
-      <form method="post">
-        <span><input class="form-control" placeholder="Enter email..." type="email"> <input class="btn_1" type="submit"></span>
-      </form>
-    </div>
-  </div>
-</div>
-<footer class="footer_1">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-8">
-        <p>
-          © Copyright B Capital Group
-          <script>
-            new Date().getFullYear()>2010&&document.write(new Date().getFullYear());
-          </script>. All Rights Reserved - <a href="javascript:;" target="_blank">Terms & Conditions</a> - <a href="javascript:;" target="_blank">Privacy Policy</a> <span><span>-</span> Website by <a href="http://www.felixfletcher.co.uk/" target="_blank">www.felixfletcher.co.uk</a></span>
+          <?php echo wp_trim_words($post->post_content, 20, '...'); ?>
         </p>
+        <a class="link" href="<?php the_permalink(); ?>" target="_blank">LEARN MORE <i class="fa fa-chevron-right"></i></a>
       </div>
-      <div class="col-sm-4">
-        <div class="footer-social">
-          <a href="javascript:;"><i aria-hidden="true" class="fa fa-facebook"></i></a> <a href="javascript:;"><i aria-hidden="true" class="fa fa-twitter"></i></a> <a href="javascript:;"><i aria-hidden="true" class="fa fa-linkedin"></i></a><a href="javascript:;"><i class="fa fa-medium" aria-hidden="true"></i></a>
-        </div>
-      </div>
+      <?php
+        endforeach;
+        wp_reset_postdata();
+      }
+      ?>
     </div>
   </div>
+</div>
+<?php echo do_shortcode('[content_block id=386]'); ?>
+<footer class="footer_1">
+  <?php echo do_shortcode('[content_block id=388]'); ?>
 </footer>
 
 
 </div><!-- .site -->
-
 
 <?php wp_footer(); ?>
 

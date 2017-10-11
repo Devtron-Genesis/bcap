@@ -16,61 +16,117 @@
 get_header();
 
 ?>
-  <div class="banner">
-      <ul>
-        <li>
-          <img class="img-responsive show_on_desktop" src="<?php echo get_template_directory_uri()?>/assets/images/team_inner_banner.jpg"> <img class="img-responsive show_on_mobile" src="<?php echo get_template_directory_uri()?>/assets/images/team_inner_banner_mobie.jpg">
-          <div class="caption">
-            <article>
-              <h1>
-                Global Reach and Expertise
-              </h1>
-              <p>
-                Our people are your biggest asset
-              </p>
-            </article>
-          </div>
-        </li>
-      </ul><a class="scroll_prompt fa fa-angle-down fa-3x" href="#sec-start"></a>
+<section id="content" role="main">
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<section class="entry-content">
+<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+<?php the_content(); ?>
+<div class="entry-links"><?php wp_link_pages(); ?></div>
+</section>
+</article>
+<?php //if ( ! post_password_required() ) comments_template( '', true ); ?>
+<?php endwhile; endif; ?>
+</section>
+
+<?php
+$support = get_posts(array(
+  'posts_per_page'  => -1,
+  'orderby'         => 'date',
+  'order'           => 'DESC',
+  'post_type'       => 'team',
+  'post_status'     => 'publish',
+  'meta_key'        => 'member_category',
+  'meta_value'      => '18',
+  )
+);
+$investors = get_posts(array(
+  'posts_per_page'  => -1,
+  'orderby'         => 'date',
+  'order'           => 'DESC',
+  'post_type'       => 'team',
+  'post_status'     => 'publish',
+  'meta_key'        => 'member_category',
+  'meta_value'      => '19',
+  )
+);
+?>
+<div class="sec" id="sec-start">
+  <div class="container">
+    <div class="team_wrap">
+      <h2 class="heading_style_2">
+         <?php echo do_shortcode('[content_block id=406]')?>
+      </h2>
+      <div class="row">
+        <?php
+        if($support) {
+          foreach($support as $post):
+          setup_postdata($post);
+          $meta = get_post_meta($post->ID);
+          $url = get_the_post_thumbnail_url($post->ID);
+          // echo '<pre>';
+          // var_dump($meta);
+          // echo "</pre>";
+          ?>
+            <div class="col-sm-4">
+              <a class="inner" href="<?php the_permalink();?>">
+                <img class="img-responsive" src="<?php echo $url;?>">
+                <div class="overlay">
+                  <h6>
+                    <?php the_title();?>
+                  </h6>
+                  <p>
+                    <?php echo $meta['designation'][0];?><br>
+                    <?php echo $meta['location'][0];?>
+                  </p>
+                </div>
+              </a>
+            </div>
+          <?php
+          endforeach;
+          wp_reset_postdata();
+        }
+        ?>
+      </div>
     </div>
-<div class="container" id="sec-start">
-<div class="team_wrap"></div>
-<h2 class="heading_style_2">
-            PLATFORM TEAM & SUPPORT TEAM
- </h2>
-
+    <div class="team_wrap">
+      <h2 class="heading_style_2">
+         <?php echo do_shortcode('[content_block id=408]');?>
+      </h2>
+      <div class="row">
+      <div class="row">
+        <?php
+        if($investors) {
+          foreach($investors as $post):
+          setup_postdata($post);
+          $meta = get_post_meta($post->ID);
+          $url = get_the_post_thumbnail_url($post->ID);
+          // echo '<pre>';
+          // var_dump($meta);
+          // echo "</pre>";
+          ?>
+            <div class="col-sm-4">
+              <a class="inner" href="<?php the_permalink();?>">
+                <img class="img-responsive" src="<?php echo $url;?>">
+                <div class="overlay">
+                  <h6>
+                    <?php the_title();?>
+                  </h6>
+                  <p>
+                    <?php echo $meta['designation'][0];?><br>
+                    <?php echo $meta['location'][0];?>
+                  </p>
+                </div>
+              </a>
+            </div>
+          <?php
+          endforeach;
+          wp_reset_postdata();
+        }
+        ?>
+      </div>
+      </div>
+    </div>
+  </div>
 </div>
-<section id="content" role="main">
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<section class="entry-content">
-<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
-<?php the_content(); ?>
-<div class="entry-links"><?php wp_link_pages(); ?></div>
-</section>
-</article>
-<?php //if ( ! post_password_required() ) comments_template( '', true ); ?>
-<?php endwhile; endif; ?>
-</section>
-
-<div class="container" id="sec-start">
-<div class="team_wrap"></div>
-<h2 class="heading_style_2">
-            BCAP GROUP INVESTORS
- </h2>
-
-</div>
-<section id="content" role="main">
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<section class="entry-content">
-<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
-<?php the_content(); ?>
-<div class="entry-links"><?php wp_link_pages(); ?></div>
-</section>
-</article>
-<?php //if ( ! post_password_required() ) comments_template( '', true ); ?>
-<?php endwhile; endif; ?>
-</section>
-
 <?php get_footer(); ?>

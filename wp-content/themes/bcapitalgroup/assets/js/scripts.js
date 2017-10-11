@@ -159,7 +159,11 @@ $(document).on("scroll", function() {
 });
 
 $(document).ready(function(){
-
+  $('.pgafu-filtr-cat a').click(function(e){
+    $.scrollTo('.pgafu-filtr-container', 'slow', {
+        'offset': -100
+      });
+    });
   //adding overlay div on team page
   $('.team-member .single-team-area').children('a').append('<div class="overlay-team"></div>');
   $('.team-member .single-team-area').children('a').attr('title',' ');

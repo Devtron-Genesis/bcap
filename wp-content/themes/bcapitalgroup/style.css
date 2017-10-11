@@ -79,6 +79,9 @@ body {
 .home .banner {
   top: -113px;
 }
+.home .entry-title, .page-id-27 .entry-title, .page-id-33 .entry-title {
+  display: none;
+}
 footer.footer_1 .footer-social a:hover {
   border-color: #212121;
   color: #212121;
@@ -118,99 +121,97 @@ header.header_1.container {
 #hidden {
   display: none;
 }
-#post-16 .banner {
-  margin-bottom: -140px;
-}
 
 /*HM*/
 .page-id-27 .tpl-social {
-    display: none !important;
+  display: none !important;
 }
 
 .tlp-content {
-    position: absolute;
-    bottom: 18px;
-    left: 15px;
-    background-color: rgba(255, 255, 255, 0.80) !important;
-    width: 65%;
-    padding: 5px 20px 30px !important;
-    z-index: 250;
+  position: absolute;
+  bottom: 18px;
+  left: 15px;
+  background-color: rgba(255, 255, 255, 0.80) !important;
+  width: 65%;
+  padding: 5px 20px 30px !important;
+  z-index: 250;
 }
 
 
 .tlp-content h3 a {
-    color: #000 !important;
+  color: #000 !important;
 }
 .designation {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 .single-team-area img {
-    position: relative;
+  position: relative;
 }
 
 /*TEAM IMG 100%*/
 .single-team-area img {
-    width: 100%;
+  width: 100%;
 }
 .short-bio {
-    position: absolute;
-    bottom: 18px;
-    z-index: 9999;
-    left: 38px;
+  position: absolute;
+  bottom: 18px;
+  z-index: 9999;
+  left: 38px;
 }
 
 /*NEWS Syle */
 ul.pgafu-filter li a {
-    background: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    color: #1c1c1c;
-    font-family: 'avenirheavy';
-    display: block;
-    text-decoration: none;
-    padding: 9px 22px;
+  background: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #1c1c1c;
+  font-family: 'avenirheavy';
+  display: block;
+  text-decoration: none;
+  padding: 9px 22px;
 }
 .pgafu-filter li.pgafu-active-filtr a {
-    background: none !important;
-    color: #139c49 !important;
+  background: none !important;
+  color: #139c49 !important;
 }
 .pgafu-post-grid-main.pgafu-design-2 .pgafu-post-grid-content {
-    border-bottom: 3px solid #139c49 !important;
-    padding-bottom: 30px !important;
-    width:  92%;
+  border-bottom: 3px solid #139c49 !important;
+  padding-bottom: 30px !important;
+  width:  92%;
 }
 
 .pgafu-content-above-image h2 a {
-    color: #1c1c1c !important;
+  color: #1c1c1c !important;
 }
 .pgafu-post-short-content {
-    color: #1c1c1c !important;
+  color: #1c1c1c !important;
 }
 
 .pgafu-content-above-image h2 a:hover {
-    color: #139c49 !important;
+  color: #139c49 !important;
 }
 
 .page-id-33 .news_wrap {
-    padding: 10px 70px;
+  padding: 10px 70px;
+  padding-top: 0px;
 }
 span.pgafu-time {
-    font-style: normal !important;
-    color: #1c1c1c !important;
-    font-size: 15px !important;
+  font-style: normal !important;
+  color: #1c1c1c !important;
+  font-size: 15px !important;
 }
 span.pgafu-user-img {
-    font-style: normal !important;
-    font-family: 'avenirheavy' !important;
-    font-weight: 400 !important;
-    color: #139c49 !important;
-    font-size: 15px !important;
+  font-style: normal !important;
+  font-family: 'avenirheavy' !important;
+  font-weight: 400 !important;
+  color: #139c49 !important;
+  font-size: 15px !important;
 }
 
 /*PAGES STYLE MENU NEWS*/
 .team-template-default ul#menu-main-top-menu li a {
-    color: #000;
+  color: #000;
 }
 
 ul.pgafu-filter {
@@ -222,7 +223,7 @@ ul.pgafu-filter {
   width: 100%;
 }
 ul#hash_menu a {
-    font-size: 20px;
+  font-size: 20px;
 }
 .news_inner_menu.clone {
   padding: 0px;
@@ -245,22 +246,22 @@ p.location {
   font-size: 27px;
 }
 .tpl-social a {
-    float: left;
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 20px;
-    display: inline-block;
-    width: 37px;
-    height: 37px;
-    text-align: center;
-    line-height: 35px;
-    font-size: 16px;
-    color: #212121;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    border: 2px solid #22252c;
-    background: #fff!important;
+  float: left;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 16px;
+  color: #212121;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #22252c;
+  background: #fff!important;
 }
 .pgafu-post-grid-main {
   padding: 10px 30px !important;
@@ -294,21 +295,23 @@ p.location {
   margin-bottom: 30px;
   margin-right: 10px;
 }
-span.pgafu-user-img, span.pgafu-time img {
-  display: none!important;
-}
 h2.tlp-member-title {
   margin-top: -14px;
 }
 img.attachment-large.size-large.wp-post-image {
   /*margin-left: 23px;*/
 }
-
+.pgafu-post-date span {
+  font-weight: normal;
+}
+.pgafu-user-img {
+  text-transform: capitalize;
+}
 .heading_style_2 {
   padding-top: 34px;
 }
 .team_wrap_1 {
-    margin-top: 75px;
+  margin-top: 75px;
 }
 div#pgafu-post-filtr-1 {
   padding: 0px;
@@ -373,31 +376,6 @@ body.home .banner ul li:after {
 .page-id-37 .sf-menu>li>a {
   color: #212121;
 }
-.single-team-area .img-responsive:hover {
-  /*opacity: 0.5 !important;*/
-}
-/*.single-team-area {
-    position:relative;
-    width:400px;
-    height:400px;
-}
-.single-team-area .img-responsive {
-    width:100%;
-    vertical-align:top;
-}
-.single-team-area:after {
-    content:'\A';
-    position:absolute;
-    width:100%; height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.6);
-    opacity:0;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-}
-.single-team-area:hover:after {
-    opacity:1;
-}*/
 .overlay-team {
   position: absolute;
   top: 0;
@@ -413,4 +391,7 @@ body.home .banner ul li:after {
 }
 .single-team-area:hover .overlay-team {
   opacity: 0.6;
+}
+.single-team .sec3 {
+  display: none;
 }
