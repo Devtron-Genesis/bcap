@@ -395,3 +395,6 @@ body.home .banner ul li:after {
 .single-team .sec3 {
   display: none;
 }
+input.btn_1.news_top {
+  background-color: #139C4A;
+}
