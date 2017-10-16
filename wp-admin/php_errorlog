@@ -1,2 +1,6 @@
 [21-Sep-2017 22:50:58 UTC] WordPress database error Unknown column 'cg_' in 'field list' for query SELECT cg_
 [21-Sep-2017 23:46:14 UTC] UpdraftPlus: Warning: settings for googledrive are empty. A dummy field is usually needed so that something is saved.
+[16-Oct-2017 06:56:07 UTC] PHP Warning:  Missing argument 1 for backup_database_do_database_backup(), called in /home/felixfle/public_html/bcap/wp-content/plugins/backup-database/pages/overview.php on line 19 and defined in /home/felixfle/public_html/bcap/wp-content/plugins/backup-database/lib/admin-ajax.php on line 7
+[16-Oct-2017 06:56:21 UTC] PHP Warning:  Missing argument 1 for backup_database_do_database_backup(), called in /home/felixfle/public_html/bcap/wp-content/plugins/backup-database/pages/overview.php on line 19 and defined in /home/felixfle/public_html/bcap/wp-content/plugins/backup-database/lib/admin-ajax.php on line 7
+[16-Oct-2017 06:56:53 UTC] hello
+[16-Oct-2017 06:57:04 UTC] PHP Warning:  Missing argument 1 for backup_database_do_database_backup(), called in /home/felixfle/public_html/bcap/wp-content/plugins/backup-database/pages/overview.php on line 19 and defined in /home/felixfle/public_html/bcap/wp-content/plugins/backup-database/lib/admin-ajax.php on line 7
