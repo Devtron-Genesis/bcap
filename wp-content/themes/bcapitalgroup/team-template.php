@@ -114,7 +114,6 @@ $partners = get_posts(array(
          <?php echo do_shortcode('[content_block id=408]');?>
       </h2>
       <div class="row">
-      <div class="row">
         <?php
         if($investors) {
           foreach($investors as $post):
@@ -145,14 +144,12 @@ $partners = get_posts(array(
         }
         ?>
       </div>
-      </div>
     </div>
 
     <div class="team_wrap">
       <h2 class="heading_style_2">
          <?php echo do_shortcode('[content_block id=446]');?>
       </h2>
-      <div class="row">
       <div class="row">
         <?php
         if($bcg) {
@@ -184,14 +181,12 @@ $partners = get_posts(array(
         }
         ?>
       </div>
-      </div>
     </div>
 
     <div class="team_wrap">
       <h2 class="heading_style_2">
          <?php echo do_shortcode('[content_block id=445]');?>
       </h2>
-      <div class="row">
       <div class="row">
         <?php
         if($partners) {
@@ -223,10 +218,7 @@ $partners = get_posts(array(
         }
         ?>
       </div>
-      </div>
     </div>
-
-
   </div>
 </div>
 <?php get_footer(); ?>
