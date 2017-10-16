@@ -50,6 +50,26 @@ $investors = get_posts(array(
   'meta_value'      => '19',
   )
 );
+$bcg = get_posts(array(
+  'posts_per_page'  => -1,
+  'orderby'         => 'date',
+  'order'           => 'DESC',
+  'post_type'       => 'team',
+  'post_status'     => 'publish',
+  'meta_key'        => 'member_category',
+  'meta_value'      => '20',
+  )
+);
+$partners = get_posts(array(
+  'posts_per_page'  => -1,
+  'orderby'         => 'date',
+  'order'           => 'DESC',
+  'post_type'       => 'team',
+  'post_status'     => 'publish',
+  'meta_key'        => 'member_category',
+  'meta_value'      => '21',
+  )
+);
 ?>
 <div class="sec" id="sec-start">
   <div class="container">
@@ -127,6 +147,86 @@ $investors = get_posts(array(
       </div>
       </div>
     </div>
+
+    <div class="team_wrap">
+      <h2 class="heading_style_2">
+         <?php echo do_shortcode('[content_block id=446]');?>
+      </h2>
+      <div class="row">
+      <div class="row">
+        <?php
+        if($bcg) {
+          foreach($bcg as $post):
+          setup_postdata($post);
+          $meta = get_post_meta($post->ID);
+          $url = get_the_post_thumbnail_url($post->ID);
+          // echo '<pre>';
+          // var_dump($meta);
+          // echo "</pre>";
+          ?>
+            <div class="col-sm-4">
+              <a class="inner" href="<?php the_permalink();?>">
+                <img class="img-responsive" src="<?php echo $url;?>">
+                <div class="overlay">
+                  <h6>
+                    <?php the_title();?>
+                  </h6>
+                  <p>
+                    <?php echo $meta['designation'][0];?><br>
+                    <?php echo $meta['location'][0];?>
+                  </p>
+                </div>
+              </a>
+            </div>
+          <?php
+          endforeach;
+          wp_reset_postdata();
+        }
+        ?>
+      </div>
+      </div>
+    </div>
+
+    <div class="team_wrap">
+      <h2 class="heading_style_2">
+         <?php echo do_shortcode('[content_block id=445]');?>
+      </h2>
+      <div class="row">
+      <div class="row">
+        <?php
+        if($partners) {
+          foreach($partners as $post):
+          setup_postdata($post);
+          $meta = get_post_meta($post->ID);
+          $url = get_the_post_thumbnail_url($post->ID);
+          // echo '<pre>';
+          // var_dump($meta);
+          // echo "</pre>";
+          ?>
+            <div class="col-sm-4">
+              <a class="inner" href="<?php the_permalink();?>">
+                <img class="img-responsive" src="<?php echo $url;?>">
+                <div class="overlay">
+                  <h6>
+                    <?php the_title();?>
+                  </h6>
+                  <p>
+                    <?php echo $meta['designation'][0];?><br>
+                    <?php echo $meta['location'][0];?>
+                  </p>
+                </div>
+              </a>
+            </div>
+          <?php
+          endforeach;
+          wp_reset_postdata();
+        }
+        ?>
+      </div>
+      </div>
+    </div>
+
+
   </div>
 </div>
 <?php get_footer(); ?>

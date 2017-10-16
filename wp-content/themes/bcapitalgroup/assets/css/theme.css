@@ -463,7 +463,7 @@ div.sec.sec2, div.sec.sec2-mob {
   /*background-attachment: fixed;*/
 }
 div.sec.sec2.clone, .page-template-about-template div.sec.sec2-mob {
-  background: url(../images/abt_tab_bg.jpg) no-repeat #006a4e;
+  background: url(../images/sec2_bg.jpg) no-repeat #006a4e;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
