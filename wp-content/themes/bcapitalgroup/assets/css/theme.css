@@ -648,8 +648,9 @@ footer.footer_1 .footer-social a:hover {
   -moz-transition: all .25s ease-in-out;
   -webkit-transition: all .25s;
   padding-top: 75px;
-  padding-bottom: 90px;
+  /*padding-bottom: 90px;*/
   text-align: center;
+  min-height: 300px;
 }
 .porfolio_wrap .inner .icon_wrap {
   height: 75px;
