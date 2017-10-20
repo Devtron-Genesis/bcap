@@ -53,6 +53,7 @@ body {
 .container.stats {
   padding-left: 160px;
   padding-right: 160px;
+  padding-bottom: 31px;
 }
 
 /* SHRINKING HEADER */
