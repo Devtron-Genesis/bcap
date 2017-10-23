@@ -80,6 +80,9 @@ body {
 .home .banner {
   top: -113px;
 }
+.page-id-33 .banner {
+  /*top: -143px;*/
+}
 .home .entry-title, .page-id-27 .entry-title, .page-id-33 .entry-title {
   display: none;
 }
@@ -398,4 +401,7 @@ body.home .banner ul li:after {
 }
 input.btn_1.news_top {
   background-color: #139C4A;
+}
+header.header_1 {
+  transition: all 0.6s ease-in-out;
 }

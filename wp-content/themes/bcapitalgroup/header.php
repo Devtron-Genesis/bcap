@@ -23,6 +23,7 @@
   <link href="<?php bloginfo('template_directory'); ?>/assets/css/rwd.css" rel="stylesheet">
   <link href="<?php bloginfo('template_directory'); ?>/assets/images/bcap.ico" rel="shortcut icon" title="Favicon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700" rel="stylesheet">
+
 <!--[if lt IE 9]>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
 <![endif]-->

@@ -1147,7 +1147,7 @@ footer.footer_1 .footer-social a:hover {
     height: auto;
   }
   header.header_1 {
-    display: none;
+    /*display: none;*/
   }
   div.sec {
     padding: 25px 0px !important;
@@ -1294,7 +1294,7 @@ footer.footer_1 .footer-social a:hover {
     margin-left: 25px;
   }
   header.header_1 .logo img {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
   }
   .banner article h1 {
     font-size: 45px;
@@ -1328,7 +1328,7 @@ footer.footer_1 .footer-social a:hover {
     font-size: 25px;
   }
   .header_1_main {
-    display: none;
+    /*display: none;*/
   }
   .mission_wrap {
     width: 95%;

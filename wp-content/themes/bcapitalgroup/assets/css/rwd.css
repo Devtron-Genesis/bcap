@@ -435,19 +435,19 @@
     display: none;
   }
   .logo {
-    display: none;
+    /*display: none;*/
   }
   button#responsive-menu-button {
     background: transparent!important;
   }
   .home .banner {
-    top: 0px;
+    top: -121px;
   }
   .banner {
-    top: 0px;
+    top: -121px;
   }
   .banner img {
-    height: 370px;
+    height: 493px;
     object-fit: cover;
 }
   .tlp-team.container {
@@ -511,10 +511,13 @@
     margin-top: 23%;
   }
   div#undefined-sticky-wrapper {
-    display: none;
+    display: block;
   }
   .home figure h3 {
     display: none;
+  }
+  header.header_1 .logo {
+    margin-left: -30px;
   }
 }
 /*TEST */
