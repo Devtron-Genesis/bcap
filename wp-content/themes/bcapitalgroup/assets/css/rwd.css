@@ -34,6 +34,15 @@
 .testimonial_slider {
   padding: 111px 100px 127px 100px
 }
+.connect_wrap {
+  background-height:100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url('/wp-content/themes/bcapitalgroup/assets/images/map.png');
+}
+.map_wrap img {
+  display: none;
+}
 }
 @media only screen and (min-width: 1024px) and (max-width:1199px) {
   button#responsive-menu-button {

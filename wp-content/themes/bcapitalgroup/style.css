@@ -405,3 +405,17 @@ input.btn_1.news_top {
 header.header_1 {
   transition: all 0.6s ease-in-out;
 }
+.page-id-37 .sec.gray_bg {
+  background-color: #fff;
+}
+article#post-37 .connect_wrap .container {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/*.connect_wrap {
+  background-height:100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url('/wp-content/themes/bcapitalgroup/assets/images/map.png');
+}
+*/
