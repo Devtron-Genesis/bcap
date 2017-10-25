@@ -1,3 +1,6 @@
+<?php
+$external_link = get_post_meta($post->ID, 'post_external_link', true);
+?>
 <div class="pgafu-post-grid">
 	<div class="pgafu-post-grid-content <?php if ( !has_post_thumbnail() ) { echo 'no-thumb-image'; } ?>">
 		<?php
@@ -10,7 +13,7 @@
 		<?php } ?>
 		<div class="pgafu-content-above-image">
 			<h2 class="pgafu-post-title">
-				<a href="<?php echo $post_link; ?>"><?php the_title(); ?></a>
+				<a href="<?php echo $external_link; ?>"><?php the_title(); ?></a>
 			</h2>
 
 			<?php if($showCategory == "true" && $cate_name !='') { ?>
