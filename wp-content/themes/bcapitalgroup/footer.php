@@ -26,8 +26,10 @@ $blogposts = get_posts(array(
       <?php if($blogposts) {
         foreach($blogposts as $post):
         setup_postdata( $post );
+         $meta = get_post_meta($post->ID);
         echo '<pre>';
         print_r($post);
+        print_r($meta);
         echo '</pre>';
       ?>
       <div class="inner">
