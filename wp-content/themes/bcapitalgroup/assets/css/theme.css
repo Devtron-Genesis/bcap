@@ -539,8 +539,8 @@ div.sec.sec3 {
 }
 .email_form_field .btn_1 {
   position: absolute;
-  top: 0;
-  right: 0;
+  /*top: 0;*/
+  /*right: 0;*/
   height: 100%;
   font-size: 15px;
   min-width: inherit;
@@ -552,6 +552,7 @@ div.sec.sec3 {
   /*text-indent: -9999px;*/
   border: none;
   outline: none;
+  left: 213px;
 }
 .email_form_field .btn_1:hover {
   /*background: url(../images/list_icon.png) no-repeat center center #139c49;*/

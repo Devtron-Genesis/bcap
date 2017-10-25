@@ -412,10 +412,16 @@ article#post-37 .connect_wrap .container {
   margin-left: 0px;
   margin-right: 0px;
 }
-/*.connect_wrap {
-  background-height:100%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-image: url('/wp-content/themes/bcapitalgroup/assets/images/map.png');
+input#mce-EMAIL {
+  float: left;
 }
-*/
+input#mc-embedded-subscribe {
+  float: left;
+}
+div#mc_embed_signup_scroll {
+  position: absolute;
+  left: 0px;
+}
+#mc_embed_signup input {
+  border: none !important;
+}
