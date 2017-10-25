@@ -26,6 +26,9 @@ $blogposts = get_posts(array(
       <?php if($blogposts) {
         foreach($blogposts as $post):
         setup_postdata( $post );
+        echo '<pre>';
+        print_r($post);
+        echo '</pre>';
       ?>
       <div class="inner">
         <h4>
