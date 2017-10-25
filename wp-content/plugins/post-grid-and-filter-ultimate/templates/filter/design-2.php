@@ -1,3 +1,9 @@
+<?php
+$meta = get_post_meta($post->ID);
+echo '<pre>';
+print_r($meta);
+echo '</pre>';
+?>
 <div class="pgafu-post-grid">
 	<div class="pgafu-post-grid-content <?php if ( !has_post_thumbnail() ) { echo 'no-thumb-image'; } ?>">
 		<?php
