@@ -4,7 +4,7 @@ Donate link: https://responsive.menu/donate
 Tags: responsive, menu, responsive menu, mobile menu, wordpress responsive menu, wp responsive menu, tablet menu, hamburger menu, hamburger, mobile, tablet, 3 lines, 3 line, three line, three lines
 Requires at least: 3.6
 Tested up to: 4.8
-Stable tag: 3.1.7
+Stable tag: 3.1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -96,20 +96,34 @@ To view our FAQ, please go to <a href="https://responsive.menu/faq">https://resp
 == Screenshots ==
 
 1. Animated Screencast
-
 2. Example Front End Menu Button
-
 3. Front End Expanded Menu with Background Image
-
 4. Alternative Example Front End Expanded Menu with Background Image
-
 5. Alternative Example Front End Expanded Menu with Background Image
-
 6. Alternative Example Front End Expanded Menu with Background Image
-
-7. Fully customisable Admin Screen
+7. Admin Initial Setup Section
+8. Admin Container Section
+9. Admin Menu Section
+10. Admin Sub Menus Section
+11. Admin Button Section
+12. Admin Technical Section
+13. Admin Advanced Section
+14. Admin Header Bar Section
+15. Admin Desktop Menu Section
 
 == Changelog ==
+
+= 3.1.8 (26th October 2017) =
+* **Requires PHP 5.4**
+* Added a new dark admin theme
+* Updated the old light admin theme
+* Added a "hide pro options" button to remove some of the clutter
+* Improved UI interface
+* Made the Word Wrap option a free feature
+* Change database option value type to LONGTEXT to accept longer values
+* Fixed bug with Enable Gestures option - Pro
+* Complete overhaul of the Desktop Menu options including Mega Menus and more - Pro
+* Added vw and vh sizing units - Pro
 
 = 3.1.7 (22nd September 2017) =
 * **Requires PHP 5.4**
