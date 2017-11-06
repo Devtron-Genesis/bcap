@@ -26,6 +26,7 @@ $blogposts = get_posts(array(
       <?php if($blogposts) {
         foreach($blogposts as $post):
         setup_postdata( $post );
+        $external_link = get_post_meta($post->ID, 'post_external_link', true);
       ?>
       <div class="inner">
         <h4>
@@ -34,7 +35,7 @@ $blogposts = get_posts(array(
         <p>
           <?php echo wp_trim_words($post->post_content, 20, '...'); ?>
         </p>
-        <a class="link" href="<?php the_permalink(); ?>" target="_blank">LEARN MORE <i class="fa fa-chevron-right"></i></a>
+        <a class="link" href="<?php echo $external_link; ?>" target="_blank">LEARN MORE <i class="fa fa-chevron-right"></i></a>
       </div>
       <?php
         endforeach;
