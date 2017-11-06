@@ -552,7 +552,7 @@ div.sec.sec3 {
   /*text-indent: -9999px;*/
   border: none;
   outline: none;
-  left: 213px;
+  /*left: 213px;*/
 }
 .email_form_field .btn_1:hover {
   /*background: url(../images/list_icon.png) no-repeat center center #139c49;*/
