@@ -69,7 +69,10 @@
     height: 120px;
   }
   .stage_wrap .inner.inner4 {
-    height: 321px;
+    /*height: 321px;*/
+  }
+  .stage_wrap .row:last-of-type .inner.inner4 {
+    padding-bottom: 13px;
   }
 
 }
@@ -153,16 +156,32 @@
     height: 100px
   }
   .stage_wrap .inner {
-    padding: 31px 0px 20px 6px;
+    padding: 31px 9px 34px 9px;
     width: 109%;
   }
   .stage_wrap .cart_icon_wrap {
-    top: -42px;
+    top: -7px;
   }
   .stage_wrap .inner h3 {
     font-size: 18px;
   }
-
+  .bridge {
+    width: 50%;
+  }
+  div#investment-mob {
+    padding-top: 220px;
+    padding-bottom: 20px;
+  }
+  .stage_wrap .row:last-of-type .inner.inner4 {
+    padding-bottom: 13px;
+  }
+  .testimonial_slider.owl-carousel.owl-theme.owl-loaded {
+    margin-top: 100px;
+  }
+  .container.partnerBCG {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 @media only screen and (min-width: 480px) and (max-width:767px) {
   .page-id-33 .news_wrap {
@@ -574,5 +593,10 @@
     left: 47%;
     top: -93px;
   }
-
+@media only screen and (min-width: 768px) and (max-width:1023px) {  
+  .home .blog_sec_wrap.owl-carousel .owl-controls .owl-nav .owl-next {
+    position: relative;
+    left: 47%;
+    top: -93px;
+  }
 }

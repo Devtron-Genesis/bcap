@@ -425,3 +425,6 @@ div#mc_embed_signup_scroll {
 #mc_embed_signup input {
   border: none !important;
 }
+.tlp-member-detail {
+  font-weight: normal;
+}
