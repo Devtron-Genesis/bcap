@@ -16,4 +16,5 @@ wp-content/updraft/*
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
+wp-admin/php_errorlog
 
